@@ -1,0 +1,16 @@
+.Quick_links{
+    text-decoration:none; 
+    display: inline-block;
+    color: black;
+}
+
+.Spacing {
+    display: inline-block; 
+    color: black;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #08B865;
+  }
