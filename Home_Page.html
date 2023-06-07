@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title> Home_Page </title>  
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="Gelfand_Site.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Gelfand_Site.css">
+<title>Audrey Gelfand</title>
 </head>
+<body>
 
-<body style="background-color: #C4FFFC; font-family: Arial, Helvetica, sans-serif">
-    <div id="above_header">
-        <p style="font-size: 2em; width: 1085px; display: inline-block; margin: 20px;"> Audrey Gelfand </p>
-        <a style="font-size: 2em" class="Quick_links" rel="Resources" href="https://www.preventsuicideny.org/">Resrouceces</a>
-        <p style="font-size: 2em"class="Spacing">|</p>
-        <a style="font-size: 2em" class="Quick_links" rel="Resources" href="https://www.merriam-webster.com/dictionary/help">Help</a>
-        <p style="font-size: 2em" class="Spacing">|</p>
-        <a style="font-size: 2em;" class="Quick_links" rel="Resources" href="https://www.crunchyroll.com/welcome/login">Login</a>
-    </div>
+<!-- Overley for menu for quick links-->
+<div id="Quick_Links" class="overlay">
 
-    <p style="clear:right;"></p>
+  <a href="javascript:void(0)" class="closebtun" onclick="closeLinks()">&times;</a>
 
+  <div class="overlay-content">
+    <!-- Links-->
+    <a href="Home_Page.html">Home</a>
+    <a href="Resources.html">Resources</a>
+    <a href="Contanct_Info.html">Contact</a>
+    <a href="Login.html">Login</a>
+  </div>
+</div>
 
-    
-    
+<span style="font-size:30px;cursor:pointer; float: right; width: 50px" onclick="openLinks()">&#9776;</span>
 
-</body>
-
+<p style="font-size: 2em; margin: 30px;"> Audrey Gelfand </p>
 
 <script>
-
+/*Open the overlay*/
+function openLinks() {
+  document.getElementById("Quick_Links").style.height = "100%";
+}
+/*Close the overlay*/
+function closeLinks() {
+  document.getElementById("Quick_Links").style.height = "0%";
+}
 </script>
-
-<footer class="footer">
-    
-</footer>
- 
+     
+</body>
 </html>
