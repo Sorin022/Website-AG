@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Gelfand_Site.css">
-<title>Audrey Gelfand</title>
-</head>
-<body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Gelfand_Site.css">
+    <title>Audrey Gelfand</title>
+  </head>
+  <body>
 
-<!-- Overley for menu for quick links-->
-<div id="Quick_Links" class="overlay">
+    <!-- header for padding block-->
+    <nav id="headerBlock">
+      <!-- Overley for menu for quick links-->
+      <div id="Quick_Links" class="overlay">
 
-  <a href="javascript:void(0)" class="closebtun" onclick="closeLinks()">&times;</a>
+        <a href="javascript:void(0)" class="closebtun" onclick="closeLinks()">&times;</a>
 
-  <div class="overlay-content">
-    <!-- Links-->
-    <a href="Home_Page.html">Home</a>
-    <a href="Resources.html">Resources</a>
-    <a href="Contanct_Info.html">Contact</a>
-    <a href="Login.html">Login</a>
-  </div>
-</div>
+        <div class="overlay-content">
+          <!-- Links-->
+          <a href="Home_Page.html">Home</a>
+          <a href="Home_Page.html">About Me</a>
+          <a href="Resources.html">Resources</a>
+          <a href="Contanct_Info.html">Contact</a>
+          <a href="Login.html">Login</a>
+        </div>
+      </div>
 
-<span style="font-size:30px;cursor:pointer; float: right; width: 50px" onclick="openLinks()">&#9776;</span>
+      <span onclick="openLinks()">&#9776;</span>
+      <!-- home link -->
+      <p><a href="Home_Page.html"> Business Name Here </a></p>
 
-<p style="font-size: 2em; margin: 30px;"> Audrey Gelfand </p>
+    </nav>
 
-<script>
-/*Open the overlay*/
-function openLinks() {
-  document.getElementById("Quick_Links").style.height = "100%";
-}
-/*Close the overlay*/
-function closeLinks() {
-  document.getElementById("Quick_Links").style.height = "0%";
-}
-</script>
-     
-</body>
+    <script>
+    /*Open the overlay*/
+    function openLinks() {
+      document.getElementById("Quick_Links").style.height = "100%";
+    }
+    /*Close the overlay*/
+    function closeLinks() {
+      document.getElementById("Quick_Links").style.height = "0%";
+    }
+    </script>
+      
+  </body>
 </html>

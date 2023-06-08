@@ -1,6 +1,38 @@
-body {
+  *
+  {
+    /* so padding reaches top and sides*/
+    padding: 0;
+    margin: 0;
+  }
+
+  body 
+  {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
+  }
+
+
+
+  /* header of pages */
+  #headerBlock
+  {
+    /* code for white padding block/header */
+    padding: 8px;
+    background-color: white;
+  }
+  #headerBlock p
+  {
+    text-decoration: none; 
+    font-size: 2em; 
+    margin: 30px;
+  }
+  #headerBlock span
+  {
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+     width: 50px; 
+    margin-top: 25px;
   }
   
   /*Overlay*/
@@ -28,7 +60,8 @@ body {
   }
   
   /*How the links will look inside the display*/
-  .overlay a {
+  .overlay a 
+  {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
@@ -38,12 +71,14 @@ body {
   }
   
   /*On mouse hover changes style of links*/
-  .overlay a:hover, .overlay a:focus {
+  .overlay a:hover, .overlay a:focus 
+  {
     color: ghostwhite;
   }
   
   /*Where the close button while be*/
-  .overlay .closebtun {
+  .overlay .closebtun 
+  {
     position: absolute;
     top: 20px;
     right: 45px;
@@ -51,7 +86,8 @@ body {
   }
   
   /*Some test stuff for if the height of the screen is lesst than 450px*/
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 450px) 
+  {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
     font-size: 40px;
@@ -59,3 +95,7 @@ body {
     right: 35px;
     }
   }
+
+  /* page body below*/
+
+  /* page footer below */
