@@ -22,10 +22,16 @@
   }
   #headerBlock p
   {
-    text-decoration: none; 
     font-size: 2em; 
     margin: 30px;
   }
+  
+  #headerBlock a
+  {
+    text-decoration: none; 
+
+  }
+
   #headerBlock span
   {
     font-size: 30px;
