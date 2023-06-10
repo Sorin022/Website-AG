@@ -143,18 +143,18 @@
   .footer-container
   {
     background-color: white;
-    padding: 4rem 0 4rem 0;
+    padding: 1rem 0 1rem 0;
   }
 
   /*footer basics*/
   .footer
   {
     width: 80%;
-    height: 40vh;
+    height: 10vh;
     background-color: white;
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin: 0 auto;
   }
@@ -173,6 +173,7 @@
     color: pink;
     text-decoration: none;
     margin-bottom: 0.5rem;
+    margin-right: 6rem;
   }
 
   /*hover color footer*/
@@ -180,6 +181,7 @@
   {
     color: red;
     transition: 0.3s ease-out;
+    text-decoration: underline;
   }
 
   /* Screen Sie differences for footer-------------*/
@@ -187,7 +189,7 @@
   {
     .footer
     {
-      height: 50vh;
+      height: 30vh;
     }
   }
 
@@ -195,7 +197,7 @@
   {
     .footer
     {
-      padding-top: 2rem;
+      padding-top: 1rem;
     }
   }
 
