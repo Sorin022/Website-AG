@@ -10,7 +10,7 @@
   {
     /* font style and color of entire body*/
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightblue;
+    background-color: #779cc3;
   }
 
   .block1 {
@@ -34,7 +34,7 @@
   /* code for header blending in when scrolling */
   #headerBlock.scrolled 
   {
-    background-color: white; /* Change this to background color */
+    background-color: white; /* Change this to scroll choice color */
     position: fixed;
     top: 0;
     left: 0;
@@ -47,7 +47,7 @@
   #headerBlock
   {
     padding: 2px;
-    background-color: lightblue;
+    background-color: #779cc3;
   }
 
   /* code for font size of logo home button */
@@ -103,7 +103,7 @@
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: lightslategray;
+    color: rgb(162, 162, 162);
     display: block;
     transition: 0.3s;
   }
@@ -111,7 +111,7 @@
   /*On mouse hover changes style of links*/
   .overlay a:hover, .overlay a:focus 
   {
-    color: ghostwhite;
+    color: #3d78b8;
   }
   
   /*Where the close button while be*/
@@ -170,7 +170,7 @@
   /*footer anchor details*/
   .footer-info a
   {
-    color: pink;
+    color: black;
     text-decoration: none;
     margin-bottom: 2rem;
     margin-right: 6rem;
@@ -179,8 +179,8 @@
   /*hover color footer*/
   .footer-info a:hover
   {
-    color: red;
-    transition: 0.3s ease-out;
+    color: #3d78b8;
+    transition: 0.1s ease-out;
     text-decoration: underline;
   }
 
