@@ -17,9 +17,10 @@
         <div class="overlay-content">
           <!-- Links-->
           <a href="Home_Page.html">Home</a>
-          <a href="Home_Page.html">About Me</a>
-          <a href="Resources.html">Resources</a>
-          <a href="Contanct_Info.html">Contact</a>
+          <a href="About_Me.html">About Me</a>
+          <a href="Client_Experiences.html">Client Experiences</a>
+          <a href="Resources.html">Helpful Resources</a>
+          <a href="Contanct_Info.html">Contact Me</a>
           <a href="Login.html">Login</a>
         </div>
       </div>
@@ -30,15 +31,77 @@
 
     </nav>
 
+    <div class="content">
+      <!-- Bullshit to check for scrolling-->
+      <h1>Welcome to my website</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</p>
+      <br>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</h1>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</h1>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</h1>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</p>
+      <br>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</p>
+      <br>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</p>
+      <br>
+      <br>
+      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lacus id feugiat pulvinar. Donec ullamcorper mauris enim, ut pellentesque mauris consectetur vel. Nam pellentesque justo nec turpis scelerisque, nec tincidunt est scelerisque. Nulla facilisi. Nulla bibendum eros id erat luctus lobortis.</h1>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-info footer-1">
+          <a href="#">Home</a>
+          <a href="#">About Me</a>
+          <a href="#">Client Experiences</a>
+          <a href="#">Helpful Resources</a>
+        </div>
+        <div class="footer-info footer-2">
+          <a href="#">Email</a>
+          <a href="#">Phone Number</a>
+          <a href="#">Location</a>
+          <a href="#">Feedback</a>
+        </div>
+      </div>
+    </div>
+
+
     <script>
-    /*Open the overlay*/
-    function openLinks() {
-      document.getElementById("Quick_Links").style.height = "100%";
-    }
-    /*Close the overlay*/
-    function closeLinks() {
-      document.getElementById("Quick_Links").style.height = "0%";
-    }
+      /*Open the overlay*/
+      function openLinks() {
+        document.getElementById("Quick_Links").style.height = "100%";
+      }
+      /*Close the overlay*/
+      function closeLinks() {
+        document.getElementById("Quick_Links").style.height = "0%";
+      }
+
+      /*betterhelp scrolling header checks if user scrolling*/
+      window.addEventListener('scroll', function() 
+      {
+        var headerBlock = document.getElementById('headerBlock');
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > 0) 
+        {
+          headerBlock.classList.add('scrolled');
+        } 
+        else 
+        {
+          headerBlock.classList.remove('scrolled');
+        }
+      });
+
     </script>
       
   </body>

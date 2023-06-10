@@ -3,42 +3,60 @@
     /* so padding reaches top and sides*/
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }
 
   body 
   {
+    /* font style and color of entire body*/
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
   }
 
 
 
-  /* header of pages */
+  /* header of page css ----------------------------*/
+
+  /* code for header blending in when scrolling */
+  #headerBlock.scrolled 
+  {
+    background-color: white; /* Change this to background color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  /* code for white padding block/header */
   #headerBlock
   {
-    /* code for white padding block/header */
-    padding: 8px;
-    background-color: white;
+    padding: 2px;
+    background-color: lightblue;
   }
+
+  /* code for font size of logo home button */
   #headerBlock p
   {
-    font-size: 2em; 
-    margin: 30px;
+    font-size: 1.5em; 
+    margin: 20px;
   }
   
+  /* get rid of underline of logo link */
   #headerBlock a
   {
     text-decoration: none; 
-
   }
 
+  /* code for dropdown menu size/location */
   #headerBlock span
   {
     font-size: 30px;
     cursor: pointer;
     float: right;
-     width: 50px; 
-    margin-top: 25px;
+    width: 50px; 
+    margin: 12px;
   }
   
   /*Overlay*/
@@ -102,6 +120,76 @@
     }
   }
 
-  /* page body below*/
 
-  /* page footer below */
+  /* page body below---------------------*/
+
+  /* page footer below-------------------- */
+  
+  /*footer basics/alignment*/
+  .footer-container
+  {
+    background-color: white;
+    padding: 4rem 0 4rem 0;
+  }
+
+  /*footer basics*/
+  .footer
+  {
+    width: 80%;
+    height: 40vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  /*footer organization*/
+  .footer-info
+  {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+  }
+
+  /*footer anchor details*/
+  .footer-info a
+  {
+    color: pink;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
+  /*hover color footer*/
+  .footer-info a:hover
+  {
+    color: red;
+    transition: 0.3s ease-out;
+  }
+
+  /* Screen Sie differences for footer-------------*/
+  @media screen and (max-width: 1150px) 
+  {
+    .footer
+    {
+      height: 50vh;
+    }
+  }
+
+  @media screen and (max-width: 820px) 
+  {
+    .footer
+    {
+      padding-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 720px) 
+  {
+    .footer
+    {
+      padding-bottom: 1rem;
+    }
+  }
+
