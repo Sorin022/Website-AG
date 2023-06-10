@@ -13,6 +13,20 @@
     background-color: lightblue;
   }
 
+  .block1 {
+    margin: 2em;
+    width: 600px;
+    font-size: 2em;
+    display: inline-block
+  }
+  
+  .imageright{
+      float: right;
+      margin: 2em;
+      width: 600px;
+      height: 600px;
+  }
+
 
 
   /* header of page css ----------------------------*/
