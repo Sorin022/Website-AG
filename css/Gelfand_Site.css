@@ -126,11 +126,19 @@
   {
     margin: 2em;
     width: 600px;
+    height: 300px;
+    font-size: 2em;
+    display: inline-block;
+  }
+
+  .block2 {
+    margin: 2em;
+    width: 600px;
     font-size: 2em;
     display: inline-block
   }
 
-  .block2 {
+  .block3 {
     margin: 2em;
     width: 600px;
     font-size: 2em;
@@ -140,15 +148,38 @@
   .imageright
   {
     float: right;
-    margin: 1em;
-    height: 200px;
+    margin: 30px 60px;
+    width: 600px;
+    height: 350px;
   }
 
   .imageleft
   {
     float: left;
-    margin: 1em;
-    height: 200px;
+    margin: 30px 60px;
+    width: 600px;
+    height: 350px;
+  }
+
+  .button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+  .button:hover{
+    background-color: tan;
+    color: black;
   }
 
    /* first section. adjust height, image, and information accordingly */
@@ -159,6 +190,10 @@
     background-position: center;
     height: 600px;
   }
+
+  .intro-text{
+    font-size: 2em;
+  }
   
 
   /* page footer below-------------------- */
@@ -168,6 +203,10 @@
   {
     background-color: #f3e9df;
     padding: 4rem 0 8rem 0;
+  }
+
+  .logoFooter{
+    margin: 40px 150px;
   }
 
   /*footer basics*/
