@@ -6,35 +6,12 @@
     box-sizing: border-box;
   }
 
-  body 
-  {
-    /* font style and color of entire body*/
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #779cc3;
-  }
-
-  .block1 {
-    margin: 2em;
-    width: 600px;
-    font-size: 2em;
-    display: inline-block
-  }
-  
-  .imageright{
-      float: right;
-      margin: 2em;
-      width: 600px;
-      height: 325px;
-  }
-
-
-
   /* header of page css ----------------------------*/
 
   /* code for header blending in when scrolling */
   #headerBlock.scrolled 
   {
-    background-color: white; /* Change this to scroll choice color */
+    background-color: #f3e9df; /* Change this to scroll choice color */
     position: fixed;
     top: 0;
     left: 0;
@@ -47,7 +24,8 @@
   #headerBlock
   {
     padding: 2px;
-    background-color: #779cc3;
+
+    background-color: #afe5c5;  /* color to blend header into image*/
   }
 
   /* code for font size of logo home button */
@@ -137,17 +115,58 @@
 
   /* page body below---------------------*/
 
-  .intro
+  body 
+  {
+    /* font style and color of entire body*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #779cc3;
+  }
+
+  .block1 
+  {
+    margin: 2em;
+    width: 600px;
+    font-size: 2em;
+    display: inline-block
+  }
+
+  .block2 {
+    margin: 2em;
+    width: 600px;
+    font-size: 2em;
+    display: inline-block
+  }
+  
+  .imageright
+  {
+    float: right;
+    margin: 1em;
+    height: 200px;
+  }
+
+  .imageleft
+  {
+    float: left;
+    margin: 1em;
+    height: 200px;
+  }
+
+   /* first section. adjust height, image, and information accordingly */
+  .intro 
   {
     background-image: url('../images/faketherapy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
   }
+  
 
   /* page footer below-------------------- */
   
   /*footer basics/alignment*/
   .footer-container
   {
-    background-color: white;
+    background-color: #f3e9df;
     padding: 4rem 0 8rem 0;
   }
 
@@ -156,7 +175,7 @@
   {
     width: 80%;
     height: 10vh;
-    background-color: white;
+    background-color: #f3e9df;
     color: black;
     display: flex;
     justify-content: flex-start;
@@ -184,7 +203,7 @@
   /*hover color footer*/
   .footer-info a:hover
   {
-    color: #3d78b8;
+    color: #5a8fc7;
     transition: 0.1s ease-out;
     text-decoration: underline;
   }
