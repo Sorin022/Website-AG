@@ -137,6 +137,11 @@
 
   /* page body below---------------------*/
 
+  .intro
+  {
+    background-image: url('../images/faketherapy.jpg');
+  }
+
   /* page footer below-------------------- */
   
   /*footer basics/alignment*/
