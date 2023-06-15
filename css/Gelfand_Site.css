@@ -101,7 +101,7 @@
     font-size: 60px;
   }
   
-  /*Some test stuff for if the height of the screen is lesst than 450px*/
+  /*Some test stuff for if the height of the screen is less than 450px*/
   @media screen and (max-height: 450px) 
   {
     .overlay a {font-size: 20px}
@@ -281,16 +281,12 @@
   @media screen and (max-width:769px){
     .imageright
   {
-    float: right;
-    margin: 30px 60px;
     width: 250px;
     height: 150px;
   }
 
   .imageleft
   {
-    float: left;
-    margin: 30px 60px;
     width: 250px;
     height: 150px;
   }
@@ -326,106 +322,71 @@
 
   .footer-info
   {
-    display: flex;
-    flex-direction: column;
     margin-right: 2rem;
   }
 
   
   .footer-info a
   {
-    color: black;
-    text-decoration: none;
     margin-bottom: 1rem;
     margin-right: 3rem;
   }
 
-  
-  .footer-info a:hover
-  {
-    color: #5a8fc7;
-    transition: 0.1s ease-out;
-    text-decoration: underline;
-  }
 }
-  /*samsung s8+ fix*/
-  /*412 px or most smart phones*/
-  @media screen and (max-width:415px){
-    .imageright
-  {
-    display: none;
-  }
 
-  .imageleft
-  {
-    display: none;
-  }
+/*415px and below*/
+@media screen and (max-width:415px){
+  .imageright
+{
+  display: none;
+}
 
-  .block1 
-  {
-    width: 350px;
-    height: 150px;
-    font-size: 1em;
-    display: inline-block;
-  }
+.imageleft
+{
+  display: none;
+}
 
-  .block2 {
-    width: 350px;
-    height: 150px;
-    font-size: 1em;
-    display: inline-block;
-  }
+.block1 
+{
+  margin: 2em;
+  width: 300px;
+  height: 150px;
+  font-size: 1em;
+  display: inline-block;
+}
 
-  .block3 {
-    width: 350px;
-    height: 150px;
-    font-size: 1em;
-    display: inline-block;
-  }
+.block2 {
+  margin: 2em;
+  width: 300px;
+  height: 150px;
+  font-size: 1em;
+  display: inline-block;
+}
 
-  .logoFooter{
-    display: none;
-  }
+.block3 {
+  margin: 2em;
+  width: 300px;
+  height: 150px;
+  font-size: 1em;
+  display: inline-block;
+}
 
-  .footer-info
-  {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2rem;
-  }
+.logoFooter{
+  display: none;
+}
 
-
-  .footer-info a
-  {
-    color: black;
-    text-decoration: none;
-    margin-bottom: 1rem;
-    margin-right: 3rem;
-  }
+.footer-info
+{
+  margin-right: 2rem;
+}
 
 
-  .footer-info a:hover
-  {
-    color: #5a8fc7;
-    transition: 0.1s ease-out;
-    text-decoration: underline;
-  }
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
 
-  .button{
-    background-color: royalblue;
-    color: white;
-    border: none;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 6px 4px;
-    cursor: pointer;
-    border-radius: 12px;
-    opacity: 0.6;
-    transition: 0.3s;
-  }
 }
 
 /*280 px or galaxy fold*/
