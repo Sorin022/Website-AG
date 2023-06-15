@@ -271,4 +271,161 @@
       padding-bottom: 1rem;
     }
   }
+/*820 px or ipad air*/
 
+/*912 px or surface pro*/
+
+/*1280 px*/
+
+  /*768 px or ipad mini*/
+  @media screen and (max-width:769px){
+    .imageright
+  {
+    float: right;
+    margin: 30px 60px;
+    width: 250px;
+    height: 150px;
+  }
+
+  .imageleft
+  {
+    float: left;
+    margin: 30px 60px;
+    width: 250px;
+    height: 150px;
+  }
+
+  .block1 
+  {
+    margin: 2em;
+    width: 300px;
+    height: 150px;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .block2 {
+    margin: 2em;
+    width: 300px;
+    height: 150px;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .block3 {
+    margin: 2em;
+    width: 300px;
+    height: 150px;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .logoFooter{
+    display: none;
+  }
+
+  .footer-info
+  {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+
+  
+  .footer-info a
+  {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+
+  
+  .footer-info a:hover
+  {
+    color: #5a8fc7;
+    transition: 0.1s ease-out;
+    text-decoration: underline;
+  }
+}
+  /*samsung s8+ fix*/
+  /*412 px or most smart phones*/
+  @media screen and (max-width:415px){
+    .imageright
+  {
+    display: none;
+  }
+
+  .imageleft
+  {
+    display: none;
+  }
+
+  .block1 
+  {
+    width: 350px;
+    height: 150px;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .block2 {
+    width: 350px;
+    height: 150px;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .block3 {
+    width: 350px;
+    height: 150px;
+    font-size: 1em;
+    display: inline-block;
+  }
+
+  .logoFooter{
+    display: none;
+  }
+
+  .footer-info
+  {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+
+
+  .footer-info a
+  {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+
+
+  .footer-info a:hover
+  {
+    color: #5a8fc7;
+    transition: 0.1s ease-out;
+    text-decoration: underline;
+  }
+
+  .button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+}
+
+/*280 px or galaxy fold*/
