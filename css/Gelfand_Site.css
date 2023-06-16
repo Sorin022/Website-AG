@@ -272,6 +272,8 @@
     }
   }
 
+/*ipad air, surface pro 7, surface pro, surface duo, nest hub, nest hub max*/
+
 /*1280 px*/
 
 /*820 px or ipad air*/
@@ -446,3 +448,66 @@
 }
 
 /*280 px or galaxy fold*/
+@media screen and (max-width:281px){
+  .imageright
+{
+  display: none;
+}
+
+.imageleft
+{
+  display: none;
+}
+
+.block1 
+{
+  width: 250px;
+  height: 150px;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.block2 {
+  width: 250px;
+  height: 150px;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.block3 {
+  width: 250px;
+  height: 150px;
+  font-size: 1em;
+  display: inline-block;
+  
+}
+
+.logoFooter{
+  display: none;
+}
+
+.footer-info
+{
+  margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.intro-text{
+  font-size: 1em;
+}
+
+.intro {
+    height: 300px;
+}
+
+.button{
+  font-size: 10px;
+}
+
+}
