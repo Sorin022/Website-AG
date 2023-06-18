@@ -1,0 +1,420 @@
+/*Some test stuff for if the height of the screen is less than 450px*/
+@media screen and (max-height: 450px) 
+{
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/* Screen Sie differences for footer-------------*/
+@media screen and (max-width: 1150px) 
+{
+ .footer
+ {
+   height: 60vh;
+ }
+}
+
+@media screen and (max-width: 820px) 
+{
+ .footer
+ {
+   padding-top: 1rem;
+ }
+}
+
+@media screen and (max-width: 720px) 
+{
+ .footer
+ {
+   padding-bottom: 1rem;
+ }
+}
+
+
+/*1280 px*/
+@media screen and (max-width:1281px){
+ .imageright
+{
+ width: 400px;
+ height: 350px;
+}
+
+.imageleft
+{
+ width: 400px;
+ height: 350px;
+}
+
+.block1{
+ margin-left: 75px;
+}
+
+.footer-info
+{
+ margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+ margin-bottom: 1rem;
+ margin-right: 3rem;
+}
+
+}
+
+/*1024 px*/
+@media screen and (max-width:1025px)
+{
+ .imageright
+ {
+   width: 400px;
+   height: 150px;
+ }
+
+ .imageleft
+ {
+   width: 400px;
+   height: 150px;
+   margin-right: 75px;
+ }
+
+ .block1 
+ {
+   margin-left: 55px;
+   width: 400px;
+   height: 150px;
+   font-size: 1em;
+   display: inline-block;
+ }
+
+ .logoFooter{
+   display: none;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+}
+
+/*912 px or surface pro*/
+@media screen and (max-width:913px){
+ .imageright
+{
+ width: 300px;
+ height: 150px;
+}
+
+.imageleft
+{
+ width: 275px;
+ height: 150px;
+}
+
+.block1 
+{
+ width: 400px;
+ height: 150px;
+ font-size: 1em;
+ display: inline-block;
+}
+
+
+.logoFooter{
+ display: none;
+}
+
+.footer-info
+{
+ margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+ margin-bottom: 1rem;
+ margin-right: 3rem;
+}
+
+}
+
+/*820 px or ipad air*/
+@media screen and (max-width:821px){
+   .imageright
+ {
+   width: 250px;
+   height: 150px;
+ }
+
+ .imageleft
+ {
+   width: 250px;
+   height: 150px;
+   margin-right: 125px;
+ }
+
+ .block1 
+ {
+   margin-left: 50px;
+   width: 300px;
+   height: 150px;
+   font-size: 1em;
+   display: inline-block;
+ }
+
+
+ .logoFooter{
+   display: none;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+}
+
+ /*768 px or ipad mini*/
+ @media screen and (max-width:769px){
+   .imageright
+ {
+   width: 250px;
+   height: 150px;
+ }
+
+ .imageleft
+ {
+   width: 200px;
+   height: 150px;
+ }
+
+ .block1 
+ {
+   width: 300px;
+   height: 150px;
+   font-size: 1em;
+   display: inline-block;
+ }
+
+
+ .logoFooter{
+   display: none;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+ 
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+}
+
+/*540px and below*/
+@media screen and (max-width:541px)
+{
+ .imageright
+ {
+   display: none;
+ }
+
+ .imageleft
+ {
+   display: none;
+ }
+
+ .block1 
+ { 
+   margin-left: 75px;
+   width: 400px;
+   height: 150px;
+   font-size: 1em;
+   display: inline-block;
+ }
+
+
+ .logoFooter{
+   display: none;
+   font-size: 1rem;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+ .footer{
+   font-size: small;
+   display: table;
+ }
+
+ .button{
+   display: table;
+ }
+
+}
+
+/*415px and below*/
+@media screen and (max-width:415px)
+{
+ .imageright
+ {
+   display: none;
+ }
+
+ .imageleft
+ {
+   display: none;
+ }
+
+ .block1 
+ {
+   margin: 2em;
+   width: 300px;
+   height: 150px;
+   font-size: 1em;
+   display: inline-block;
+ }
+
+
+ .logoFooter{
+   display: none;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+}
+
+/*360 px*/
+@media screen and (max-width:361px)
+{
+   .imageright
+ {
+   display: none;
+ }
+
+ .imageleft
+ {
+   display: none;
+ }
+
+ .block1 
+ {
+   margin-bottom: 50px;
+   width: 300px;
+   height: 150px;
+   font-size: 1em;
+   display: inline-block;
+ }
+
+
+ .logoFooter{
+   display: none;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+}
+
+/*280 px or galaxy fold*/
+@media screen and (max-width:281px){
+   .imageright
+ {
+   display: none;
+ }
+
+ .imageleft
+ {
+   display: none;
+ }
+
+ .block1 
+ {
+   margin-left: 20px;
+   width: 250px;
+   height: 150px;
+   font-size: 1em;
+   display: table;
+ }
+
+ .logoFooter{
+   display: none;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+ .intro-text{
+   font-size: 1em;
+ }
+
+ .intro {
+     height: 300px;
+ }
+
+ .button{
+   font-size: 10px;
+ }
+
+}
