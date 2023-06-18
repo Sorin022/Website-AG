@@ -154,7 +154,7 @@
     width: 350px;
     background-color: white;
     border: 1px solid grey;
-    margin: 20px;
+    margin: 30px;
   }
 
   .box1-image
@@ -246,7 +246,7 @@
     margin: 30px 60px;
     width: 500px;
     height: 350px;
-    margin-right: 4em;
+    margin-right: 8.5em;
     margin-top: 4em;
   }
 
@@ -257,6 +257,7 @@
     width: 500px;
     height: 350px;
     margin-top: 6em;
+    margin-left: 8.5em;
   }
 
   .button{
