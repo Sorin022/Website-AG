@@ -192,13 +192,13 @@
 
   .box1-content .box1-title:hover
   {
-    color: red;
+    color: #b476d8;
     transition: all ease 0.3s;
   }
 
   .box1-content p
   {
-    color: yellow;
+    color: #b476d8;
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -214,7 +214,7 @@
   }
   .box1-content a:hover
   {
-    color: red;
+    color: #b476d8;
     transition: all ease 0.3s;
   }
 
@@ -277,7 +277,7 @@
   }
 
   .button:hover{
-    background-color: #9660b5;
+    background-color: #b476d8;
     color: black;
   }
 
