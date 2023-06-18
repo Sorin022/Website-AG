@@ -138,7 +138,7 @@
     margin-left: 6em;
   }
 
-
+/*block2---------------------*/
 
   .block2
   {
@@ -147,6 +147,7 @@
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
+    margin-top: 6em;
   }
   .box1
   {
@@ -217,7 +218,7 @@
     transition: all ease 0.3s;
   }
 
-
+/* block 3--------------------*/
 
   .block3-content
   {
@@ -303,7 +304,7 @@
   }
 
   .logoFooter{
-    margin: 40px 150px;
+    margin: 20px 100px;
   }
 
   /*footer basics*/
@@ -326,7 +327,7 @@
   {
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
 
   /*footer anchor details*/
