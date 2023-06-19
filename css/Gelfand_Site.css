@@ -11,7 +11,7 @@
   /* code for header blending in when scrolling */
   #headerBlock.scrolled 
   {
-    background-color: #cecdc8; /* Change this to scroll choice color */
+    background-color: white; /* Change this to scroll choice color */
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
   {
     padding: 2px;
 
-    background-color: white;  /* color to blend header into image*/
+    background-color: #cecdc8;  /* color to blend header into image*/
   }
 
   /* code for font size of logo home button */
@@ -126,7 +126,6 @@
     font-size: larger;
     word-spacing: 2px;
     margin-left: 3.5em;
-
   }
   
 
@@ -287,7 +286,7 @@
     background-image: url('../images/AGBig.JPG');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 400px;
   }
 
   .intro-text{
