@@ -34,9 +34,8 @@
  }
 }
 
-
-/*1280 px*/
-@media screen and (max-width:1281px){
+/*1426 px*/
+@media screen and (max-width:1427px){
   .imageright
   {
     margin-top: 9em;
@@ -108,6 +107,161 @@
 
 
 }
+
+
+/*1280 px*/
+@media screen and (max-width:1285px){
+  .imageright
+  {
+    margin-top: 9em;
+    margin-right: 8em;
+    width: 400px;
+    height: 225px;
+  }
+ 
+  .imageleft
+  {
+    margin-top: 9em;
+    margin-left: 11em;
+    width: 350px;
+    height: 225px;
+  }
+ 
+  .block1-content {
+   margin: 0%;
+   width: 500px;
+   margin-top: 5em;
+   margin-left: 2em;
+   display: inline-block;
+ }
+ 
+ 
+ .block1-content p
+ {
+   font-size: medium;
+   word-spacing: 2px;
+   width: 500px;
+   margin-left: 20px 0px;
+ }
+ 
+ .block2
+   {
+     margin-top: 0%;
+   }
+ 
+ .block3-content
+   {
+     margin: 0%;
+     margin-top: 7em;
+     width: 500px;
+     height: 300px;
+     font-size: 1.5em;
+     display: inline-block;
+   }
+ 
+   .block3-content p
+   {
+     font-size: medium;
+     word-spacing: 2px;
+     width: 500px;
+     margin-left: 2em;
+   }
+ 
+  .footer-info
+  {
+    margin-right: 2rem;
+    font-size: medium;
+  }
+ 
+  
+  .footer-info a
+  {
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+
+
+}
+
+/*1120 px*/
+@media screen and (max-width:1190px)
+{
+  .imageright
+  {
+    margin-top: 9em;
+    margin-right: 5em;
+    width: 250px;
+    height: 225px;
+  }
+ 
+  .imageleft
+  {
+    margin-top: 10em;
+    margin-right: 2em;
+    margin-left: 11em;
+    width: 250px;
+    height: 150px;
+  }
+ 
+  .block1-content {
+   margin: 0%;
+   width: 350px;
+   margin-top: 5em;
+   display: inline-block;
+ }
+ 
+ 
+ .block1-content p
+ {
+   font-size: medium;
+   word-spacing: 2px;
+   width: 350px;
+   margin-left: 20px 0px;
+ }
+ 
+ .block2
+   {
+     margin-top: 0%;
+   }
+ 
+ .block3-content
+   {
+     margin: 0%;
+     margin-top: 7em;
+     width: 350px;
+     height: 300px;
+     font-size: 1.5em;
+     display: inline-block;
+   }
+ 
+   .block3-content p
+   {
+     font-size: medium;
+     word-spacing: 2px;
+     width: 350px;
+     margin-left: 2em;
+   }
+ 
+ 
+  .logoFooter{
+    display: none;
+  }
+ 
+  .footer-info
+  {
+    margin-right: 2rem;
+    font-size: large;
+  }
+ 
+  
+  .footer-info a
+  {
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+
+}
+
 
 /*1024 px*/
 @media screen and (max-width:1025px)
@@ -414,6 +568,91 @@
 
 }
 
+/*690 px*/
+@media screen and (max-width:690px)
+{
+ .imageright
+ {
+   display: none;
+ }
+
+ .imageleft
+ {
+   display: none;
+ }
+
+ .block1-content {
+  margin-left: 60px;
+  width: 400px;
+}
+
+.block1-content h2
+{
+  display: none;
+}
+
+
+.block1-content p
+{
+  font-size: medium;
+  word-spacing: 2px;
+  width: 370px;
+  height: 200px;
+  margin-left: 20px 0px;
+}
+
+.block2
+  {
+    margin-top: 0%;
+  }
+
+.block3-content
+  {
+    margin-top: 0%;
+    width: 400px;
+    height: 300px;
+    font-size: 1.5em;
+    display: inline-block;
+  }
+
+  .block3-content p
+  {
+    font-size: medium;
+    word-spacing: 2px;
+    width: 360px;
+    margin-left: 10em;
+  }
+
+
+ .logoFooter{
+   display: none;
+   font-size: 1rem;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
+ }
+
+ .footer{
+   font-size: small;
+   display: table;
+ }
+
+ .button{
+   display: table;
+ }
+
+}
+
+
 /*540px and below*/
 @media screen and (max-width:541px)
 {
@@ -495,6 +734,82 @@
 
  .button{
    display: table;
+ }
+
+}
+
+/*462px*/
+@media screen and (max-width:463px)
+{
+ .imageright
+ {
+   display: none;
+ }
+
+ .imageleft
+ {
+   display: none;
+ }
+
+ .block1-content {
+  margin: 0%;
+  width: 400px;
+
+}
+
+.block1-content h2
+{
+  display: none;
+}
+
+
+.block1-content p
+{
+  font-size: medium;
+  word-spacing: 2px;
+  width: 350px;
+  margin-left: 4em;
+}
+
+.block2
+  {
+    margin-top: 0%;
+  }
+
+.block3-content
+  {
+    margin: 0%;
+    margin-top: 0%;
+
+    width: 400px;
+    height: 300px;
+    font-size: 1.5em;
+    display: inline-block;
+  }
+
+  .block3-content p
+  {
+    font-size: medium;
+    word-spacing: 2px;
+    width: 350px;
+    margin-left: 4em;
+  }
+
+
+ .logoFooter{
+   display: none;
+ }
+
+ .footer-info
+ {
+   margin-right: 2rem;
+ }
+
+
+ .footer-info a
+ {
+   margin-bottom: 1rem;
+   margin-right: 3rem;
  }
 
 }
