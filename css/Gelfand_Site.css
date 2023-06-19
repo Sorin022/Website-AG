@@ -147,6 +147,7 @@
     margin: 20px 0px;
     flex-wrap: wrap;
     margin-top: 6em;
+    /*background-color: #7a876b;*/
   }
   .box1
   {
@@ -178,7 +179,7 @@
 
   .box1-content span
   {
-    color: pink;
+    color: black;
     font-size: 0.9rem;
   }
 
@@ -197,7 +198,7 @@
 
   .box1-content p
   {
-    color: #b476d8;
+    color: black;
     font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -342,7 +343,7 @@
   /*hover color footer*/
   .footer-info a:hover
   {
-    color: #5a8fc7;
+    color: #b476d8;
     transition: 0.1s ease-out;
     text-decoration: underline;
   }
