@@ -1,3 +1,8 @@
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
 /*Some test stuff for if the height of the screen is less than 450px*/
 @media screen and (max-height: 450px) 
 {
