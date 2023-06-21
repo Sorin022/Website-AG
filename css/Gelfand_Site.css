@@ -148,20 +148,29 @@
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
-    margin-top: 6em;
+    opacity: 0;
+    transition: opacity 3s;
     /*background-color: #7a876b;*/
   }
+
+  .border{
+    border-style: solid;
+    border-color:#b476d8;
+    border-width: 20px;
+    margin-left: 16.5em;
+    margin-right: 14.5em;
+    margin-top: 4em;
+  }
+
   .box1
   {
     width: 350px;
     background-color: white;
     border: 1px solid grey;
     margin: 30px;
-    opacity: 0;
-    transition: opacity 3s;
   }
 
-  .box1:hover{
+  .block2:hover{
     opacity: 1;
   }
 
@@ -368,16 +377,9 @@
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+    position: static;
   }
 
-
-  /* On hover*/
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
 
   /* The dots */
   .dot {
@@ -398,10 +400,10 @@
   /* Fading animation */
   .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 5s;
   }
 
   @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: 0.1} 
     to {opacity: 1}
   } 
