@@ -154,11 +154,9 @@
   }
 
   .border{
-    border-style: solid;
+    border-style: solid none;
     border-color:#cd9ee9;
     border-width: 10px;
-    margin-left: 16.5em;
-    margin-right: 14.5em;
     margin-top: 4em;
   }
 
@@ -251,7 +249,7 @@
   {
     font-size: medium;
     word-spacing: 2px;
-    width: 600px;
+    width: 400px;
     margin-left: 6em;
   }
   
@@ -261,7 +259,7 @@
   {
     float: right;
     margin: 30px 60px;
-    width: 600px;
+    width: 400px;
     height: 500px;
     margin-right: 14em;
     margin-top: 4em;
@@ -271,7 +269,7 @@
   {
     float: left;
     margin: 30px 60px;
-    width: 600px;
+    width: 400px;
     height: 500px;
     margin-top: 6em;
     margin-left: 17em;
@@ -324,7 +322,7 @@
   }
 
   .logoFooter{
-    margin: 40px 270px;
+    margin: 40px 130px;
   }
 
   /*footer basics*/
