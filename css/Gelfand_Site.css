@@ -101,6 +101,43 @@
     right: 45px;
     font-size: 60px;
   }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* On hover */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* The dots */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
   
 
 
@@ -113,30 +150,42 @@
     background-color: #cecdc8;
   }
 
-  .block1-content {
-    margin-top: 3em;
-    margin-left: 7em;
-    width: 600px;
-    height: 300px;
-    font-size: 1.5em;
-    display: inline-block;
-  }
-
-  .block1-content h2
-  {
-    font-size: larger;
-    word-spacing: 2px;
-    margin-left: 3.5em;
+  #block1 {
+    display: flex;
+    align-items: center;
   }
   
-
-  .block1-content p
-  {
-    font-size: medium;
-    word-spacing: 2px;
+  .block1-content {
+    margin: 6em;
     width: 600px;
-    margin-left: 6em;
+    font-size: 1.5em;
   }
+  
+  .block1-content h2 {
+    font-size: larger;
+    word-spacing: 2px;
+  }
+  
+  .block1-content p {
+    font-size: large;
+    word-spacing: 2px;
+    line-height: 1.5;
+    width: 400px;
+  }
+  
+  .button {
+    display: inline-block;
+    font-size: 5em;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
 
 /*block2---------------------*/
 
@@ -357,31 +406,4 @@
     margin-bottom: 3em;
   }
 
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-
-
-  /* On hover*/
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-
-  /* The dots */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-
-  .active, .dot:hover {
-    background-color: #717171;
-  }
+  
