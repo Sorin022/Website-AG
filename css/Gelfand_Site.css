@@ -175,17 +175,21 @@
     width: 400px;
   }
   
-  .button {
-    display: inline-block;
-    font-size: 5em;
-    padding: 10px 20px;
+  .button{
+    background-color: #cd9ee9;
+    color: rgb(0, 0, 0);
     border: none;
-    background-color: #4CAF50;
-    color: white;
+    padding: 5px 15px;
+    font-weight: 400;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
     cursor: pointer;
-    margin-top: 1em;
+    border-radius: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
   }
   
 
@@ -318,21 +322,7 @@
     margin-left: 8.5em;
   }
 
-  .button{
-    background-color: #cd9ee9;
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    opacity: 0.6;
-    transition: 0.3s;
-  }
+
 
   .button:hover{
     background-color: #b476d8;
