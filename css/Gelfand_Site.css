@@ -273,6 +273,8 @@
   #block3 {
     display: flex;
     align-items: center;
+    margin-top: 7em;
+    margin-bottom: 3em;
   }
 
   .block3-content {
