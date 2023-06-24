@@ -108,6 +108,8 @@
     position: relative;
     margin: auto;
     width: 100%;
+    left: 0;
+    right: 0;
   }
   
   .slideshow-container img {
