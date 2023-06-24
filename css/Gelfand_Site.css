@@ -175,22 +175,6 @@
     width: 400px;
   }
   
-  .button{
-    background-color: #cd9ee9;
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 5px 15px;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    opacity: 0.6;
-    transition: 0.3s;
-  }
   
 
 /*block2---------------------*/
@@ -322,6 +306,22 @@
     margin-left: 8.5em;
   }
 
+  .button{
+    background-color: #cd9ee9;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 15px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
 
 
   .button:hover{
