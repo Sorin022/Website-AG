@@ -306,12 +306,12 @@
     margin-left: 8.5em;
   }
 
-  .button{
+  .button {
     background-color: #cd9ee9;
-    color: rgb(0, 0, 0);
+    color: #000;
     border: none;
     padding: 5px 15px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -322,12 +322,12 @@
     opacity: 0.6;
     transition: 0.3s;
   }
-
-
-  .button:hover{
+  
+  .button:hover {
     background-color: #b476d8;
-    color: black;
+    color: #fff;
   }
+  
 
    /* first section. adjust height, image, and information accordingly */
   .intro 
