@@ -18,10 +18,10 @@
         <div class="overlay-content">
           <!-- Links-->
           <a href="Home_Page.html">Home</a>
-          <a href="HTML/About_Me.html">About</a>
-          <a href="HTML/Client_Experiences.html">Reviews</a>
-          <a href="HTML/Resources.html">Resources</a>
           <a href="HTML/Contanct_Info.html">Contact</a>
+          <a href="HTML/About_Me.html">About</a>
+          <a href="HTML/Resources.html">Resources</a>
+          <a href="HTML/Client_Experiences.html">Reviews</a>
           <a href="HTML/Login.html">Login</a>
         </div>
       </div>
@@ -47,9 +47,9 @@
     
       
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
     </div>
     <br>
     <br>
@@ -75,28 +75,13 @@
             <img src="images/faketherapy.jpg" alt="box1">
           </div>
           <div class="box1-content">
-            <a href="https://www.therapyportal.com/p/audreygelfand/" class="box1-title" style="text-decoration: none;">Patient Portal</a>
-            <p> Enjoy the benefits of managing your therapy journey online. If you need to make changes to your appointments, the portal allows you to reschedule with ease, providing flexibility and convenience.  
-              Easily review and keep track of your invoices, payments, and any outstanding balances.</p>
-            <span> Click on the link below to access your patient portal</span>
+            <a href="HTML/Resources.html" class="box1-title" style="text-decoration: none;"> Helpful Resources </a>
+            <p>As a licensed physician, I'm here to provide you with trusted guidance for your health concerns. Explore the following resources to help you keep your symptoms under control and improve your well-being. Click the link below for more information.</p>
+            <span> Click on the link below to access some helpful links</span>
             <br>
-            <a href="https://www.therapyportal.com/p/audreygelfand/"> Visit the Portal </a>
+            <a href="HTML/Resources.html"> Resources before or after visit </a>
           </div>
         </div>
-
-        <div class="box1">
-          <div class="box1-image">
-            <img src="images/faketherapy.jpg" alt="box1">
-          </div>
-          <div class="box1-content">
-            <a href="HTML/About_Me.html" class="box1-title" style="text-decoration: none;"> My Approach </a>
-            <p> " Patients come to me from all walks of life. I treat people of all ages. When patients are too young to come to therapy, I often work on a consultation model where I will work with caregivers instead of directly working with the patient. I treat people with many different emotional and behavioral challenges "</p>
-            <span> - Dr. Gelfand </span>
-            <br>
-            <a href="HTML/About_Me.html"> Learn More About My Approach </a>
-          </div>
-        </div>
-
 
         <div class="box1">
           <div class="box1-image">
@@ -107,20 +92,34 @@
             <p> " I feel very fortunate to have Dr. Gelfand as my therapist. She is very kind, knowledgeable, resourceful, and professional and she has helped me a great deal. I would recommend her in a heartbeat." </p>
             <span> - J.L. </span>
             <br>
+            <br>
             <a href="HTML/Client_Experiences.html"> More Success Stories </a>
+          </div>
+        </div>
+
+        <div class="box1">
+          <div class="box1-image">
+            <img src="images/faketherapy.jpg" alt="box1">
+          </div>
+          <div class="box1-content">
+            <a href="https://www.therapyportal.com/p/audreygelfand/" class="box1-title" style="text-decoration: none;">Patient Portal</a>
+            <p> Enjoy the benefits of managing your therapy journey online. If you need to make changes to your appointments, the portal allows you to reschedule with ease, providing flexibility and convenience.  
+              Easily review and keep track of your invoices, payments, and any outstanding balances.</p>
+            <span> Click on the link below to access your patient portal</span>
+            <br>
+            <a href="https://www.therapyportal.com/p/audreygelfand/"> Visit the Portal </a>
           </div>
         </div>
       </div>
 
       <div id="block3">
         <div class="block3-content">
-          <h2> Trusted reliable resources </h2>
+          <h2><a class="url" style="text-decoration: none;" href="https://www.google.com/maps/place/Audrey+R.+Gelfand,+PHD/@41.1458359,-73.8390587,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2bf6148a65617:0x945021abdc9225ed!8m2!3d41.1458359!4d-73.8364838!16s%2Fg%2F1tdcy04p?entry=ttu">Location</a></h2>
           <br>
-          <p> As a licensed physician, I'm here to provide you with trusted guidance for your health concerns. Explore the following resources to help you keep your symptoms under control and improve your well-being. Click the link below for more information.
+          <p> Bellow is a link to my office. This link is a google maps link, that will give you the exact address of my office as well as the surrounding area. If this is to far for you, but are still whilling to work with me, I am able to do zoom meetings and or facetime.</p>
             <br>
             <br>
-            <button type="button" class="button" onclick="redirectToResources()"> Helpful Resources </button>
-          </p>
+            <a class="url" href="https://www.google.com/maps/place/Audrey+R.+Gelfand,+PHD/@41.1458359,-73.8390587,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2bf6148a65617:0x945021abdc9225ed!8m2!3d41.1458359!4d-73.8364838!16s%2Fg%2F1tdcy04p?entry=ttu">Google Maps Link of Office</a>
         </div>
         <img src="images/faketherapy.jpg" alt="Audrey Gelfand" class="imageleft">
       </div>
@@ -208,12 +207,6 @@
       function redirectToAboutMe() {
         // Redirect to the desired page
         window.location.href = "HTML/About_Me.html";
-      }
-
-      /* button 2 redirect for body*/
-      function redirectToResources() {
-        // Redirect to the desired page
-        window.location.href = "HTML/Resources.html";
       }
 
     </script>

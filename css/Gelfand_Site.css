@@ -284,6 +284,19 @@
     width: 400px;
   }
 
+  .url {
+    font-size: x-large;
+    word-spacing: 2px;
+    line-height: 1.5;
+    width: 400px;
+    color: black;
+  }
+
+  .url:hover{
+    color: #b476d8;
+    transition: all ease 0.3s;
+  }
+
   
   .imageright
   {
@@ -403,5 +416,18 @@
     margin-left: 8em; 
     margin-bottom: 3em;
   }
+
+  .fade {
+      animation-name: fade;
+      animation-duration: 5s;
+      transition: opacity 0.75s;
+  }
+    
+    @keyframes fade {
+      from {opacity: 0} 
+      to {opacity: 1}
+  } 
+
+
 
   
