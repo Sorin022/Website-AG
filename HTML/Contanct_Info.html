@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="stylesheet" href="../css/media.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+
+        <!-- header for padding block-->
+        <nav id="headerBlock">
+            <!-- Overley for menu for quick links-->
+            <div id="Quick_Links" class="overlay">
+    
+            <a href="javascript:void(0)" class="closebtun" onclick="closeLinks()">&times;</a>
+    
+            <div class="overlay-content">
+                <!-- Links-->
+                <a href="../Home_Page.html">Home</a>
+                <a href="Contanct_Info.html">Contact</a>
+                <a href="About_Me.html">About</a>
+                <a href="Resources.html">Resources</a>
+                <a href="Client_Experiences.html">Reviews</a>
+                <a href="Login.html">Login</a>
+            </div>
+            </div>
+    
+            <span onclick="openLinks()">&#9776;</span>
+            <!-- home link -->
+            <img src="../images/AGTransparentCrop.png" style="height: 50px; width: 50px; margin: 15px;"><a href="../Home_Page.html"></a></img>
+    
+        </nav>
+
+        <div class="bodyContainer">
+            <div class="contentcontainer">
+                <div class="contactcontainer">
+                    <h1 class="the_title">Contact us</h1>
+                    <p class="the_title_text">
+                        Use this form to reach out to us
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-us-box">
+            <p> Location: <a href="mailto: audreygelfand@gmail.com">audreygelfand@gmail.com</a> </p>
+            <br>
+            <p> Phone: <a href="mailto: audreygelfand@gmail.com">audreygelfand@gmail.com</a> </p>
+            <br>
+            <p> Email: <a href="mailto: audreygelfand@gmail.com">audreygelfand@gmail.com</a> </p>
+        </div>
+        <div class="contact-form-container">
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+
+
+
+
+
+        <div class="content">
+        <br>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="imagefooter">
+                    <img src="../images/AGTransparent.png" alt="logo2" class="logoFooter" style="height: 80px; flex-direction: column; margin-right: 4rem;">
+                </div>
+                <div class="footer-info footer-1">
+                    <a href="../Home_Page.html">Home</a>
+                    <a href="../HTML/About_Me.html">About</a>
+                    <a href="../HTML/Client_Experiences.html">Client Experiences</a>
+                    <a href="../HTML/Resources.html">Resources</a>
+                </div>
+                <div class="footer-info footer-2">
+                    <a href="mailto: audreygelfand@gmail.com">Email</a>
+                    <a href="tel:914-282-8705">Telephone</a>
+                    <a href="https://www.google.com/maps/place/Audrey+R.+Gelfand,+PHD/@41.1458359,-73.8390587,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2bf6148a65617:0x945021abdc9225ed!8m2!3d41.1458359!4d-73.8364838!16s%2Fg%2F1tdcy04p?entry=ttu">My Office</a>
+                    <a href="#">Feedback</a>
+                </div>
+                <div class="footer-info footer-3">
+                    <a href="#">Accessibility</a>
+                    <p style="text-decoration: none;">© 2023 Audrey Gelfand PH.D.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            /*Open the overlay*/
+            function openLinks() {
+                document.getElementById("Quick_Links").style.height = "100%";
+            }
+            /*Close the overlay*/
+            function closeLinks() {
+                document.getElementById("Quick_Links").style.height = "0%";
+            }
+        
+            /*betterhelp scrolling header checks if user scrolling*/
+            window.addEventListener('scroll', function() 
+            {
+                var headerBlock = document.getElementById('headerBlock');
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+                if (scrollTop > 0) 
+                {
+                headerBlock.classList.add('scrolled');
+                } 
+                else 
+                {
+                headerBlock.classList.remove('scrolled');
+                }
+            });
+        </script>
+    </body>
+</html>
