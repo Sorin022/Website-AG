@@ -26,7 +26,7 @@
   {
     padding: 2px;
     transition: background-color 0.3s ease-in-out;
-    background-color: #cecdc8;  /* color to blend header into image*/
+    background-color: #ccbed4;  /* color to blend header into image*/
   }
 
   /* code for font size of logo home button */
@@ -90,7 +90,7 @@
   /*On mouse hover changes style of links*/
   .overlay a:hover, .overlay a:focus 
   {
-    color: #b476d8;
+    color: #335e7e;
   }
   
   /*Where the close button while be*/
@@ -148,7 +148,7 @@
   {
     /* font style and color of entire body*/
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #cecdc8;
+    background-color: #335e7e;
   }
 
   #block1 {
@@ -191,7 +191,7 @@
   .box1
   {
     width: 350px;
-    background-color: white;
+    background-color: #b394b3;
     border: 1px solid grey;
     margin: 30px;
   }
@@ -231,7 +231,7 @@
 
   .box1-content .box1-title:hover
   {
-    color: #b476d8;
+    color: white;
     transition: all ease 0.3s;
   }
 
@@ -253,7 +253,7 @@
   }
   .box1-content a:hover
   {
-    color: #b476d8;
+    color: white;
     transition: all ease 0.3s;
   }
 
@@ -341,13 +341,13 @@
   }
   
   .button1:hover {
-    background-color: #b476d8;
-    color: #fff;
+    background-color: #cd9ee9;
+    color: white;
   }
 
   .button2:hover {
-    background-color: #b476d8;
-    color: #fff;
+    background-color: #cd9ee9;
+    color: white;
   }
   
 
@@ -413,7 +413,7 @@
   /*hover color footer*/
   .footer-info a:hover
   {
-    color: #b476d8;
+    color: #cd9ee9;
     transition: 0.1s ease-out;
     text-decoration: underline;
   }

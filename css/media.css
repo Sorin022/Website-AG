@@ -467,7 +467,7 @@
  {
    margin-top: 10em;
    margin-right: 2em;
-   margin-left: 6em;
+   margin-left: 4em;
    width: 250px;
    height: 150px;
  }
@@ -494,7 +494,7 @@
     margin-top: 0%;
   }
 
-.block3-content
+  .block3-content
   {
     margin-left: 3em;
     margin-top: 0;
@@ -509,7 +509,7 @@
     font-size: medium;
     word-spacing: 2px;
     width: 350px;
-    margin-left: 0;
+    margin-right: 0;
   }
 
 
@@ -528,6 +528,10 @@
  {
    margin-bottom: 1rem;
    margin-right: 3rem;
+ }
+
+ .button2{
+  margin-left: 1.5em;
  }
 
 }
