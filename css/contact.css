@@ -126,8 +126,6 @@
         line-height: 28px;
     }
 
-    /* Additional CSS for the new elements */
-
     .contact-us-box {
         width: 25%;
         height: 300px;
@@ -137,17 +135,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 6em;
-        margin-bottom: 5em;
-        padding: 20px; /* Add padding to create space between text and box edges */
+        margin: 7em;
+        margin-bottom: 7em;
+        padding: 20px;
     }
     
     .contact-us-box p {
         font-size: medium;
         word-spacing: 2px;
         line-height: 1.5;
-        text-align: center; /* Center the text within the box */
-        margin: 10px 0; /* Add margin to create space between paragraphs */
+        text-align: center;
+        margin: 10px 0; 
     }
     
     
@@ -157,32 +155,39 @@
         margin: 5em;
         margin-left: 3em;
         margin-right: 3em;
-        margin-bottom: 5em;
+        margin-bottom: 6m;
     }
     
-
     .contact-form {
         display: flex;
         flex-direction: column;
         max-width: 400px;
         margin: 0 auto;
     }
-
+    
     .contact-form label {
+        display: block;
         margin-top: 10px;
     }
-
+    
     .contact-form input,
     .contact-form textarea {
         margin-bottom: 10px;
         padding: 5px;
         font-size: 16px;
+        border: 1px solid transparent;
+        border-radius: 5px;
     }
-
+    
+    .contact-form input:hover,
+    .contact-form textarea:hover {
+        border: 4px solid #cd9ee9;
+    }
+    
     .contact-form textarea {
         resize: vertical;
     }
-
+    
     .contact-form button {
         background-color: #cd9ee9;
         color: #000;
@@ -199,13 +204,12 @@
         opacity: 0.6;
         transition: 0.3s;
     }
-
+    
     .contact-form button:hover {
         background-color: #cd9ee9;
         color: white;
     }
-
-    /* Adjust the styles as needed based on your design preferences */
+    
 
 
 
