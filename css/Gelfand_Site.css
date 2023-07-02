@@ -306,7 +306,24 @@
     margin-left: 8.5em;
   }
 
-  .button {
+  .button1 {
+    background-color: #cd9ee9;
+    color: #000;
+    border: none;
+    padding: 5px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+  .button2 {
     background-color: #cd9ee9;
     color: #000;
     border: none;
@@ -323,7 +340,12 @@
     transition: 0.3s;
   }
   
-  .button:hover {
+  .button1:hover {
+    background-color: #b476d8;
+    color: #fff;
+  }
+
+  .button2:hover {
     background-color: #b476d8;
     color: #fff;
   }
