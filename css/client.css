@@ -1,4 +1,4 @@
-*
+    *
     {
         /* so padding reaches top and sides*/
         padding: 0;
@@ -6,7 +6,7 @@
         box-sizing: border-box;
     }
 
-/* header of page css ----------------------------*/
+    /* header of page css ----------------------------*/
 
     /* code for header blending in when scrolling */
     #headerBlock.scrolled 
@@ -124,4 +124,109 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 28px;
+    }
+
+
+    /* body content */
+    .containerblocks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .block1,
+    .block2,
+    .block3,
+    .block4 {
+        margin: 3em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .quote {
+        border: 1px solid #ccc;
+        padding: 1em;
+        quotes: "\201C" "\201D";
+    }
+    
+    .quote p {
+        quotes: none;
+    }
+    
+    .quote::before {
+        content: open-quote;
+        font-size: 2em;
+        margin-right: 0.1em;
+    }
+    
+    .quote::after {
+        content: close-quote;
+        font-size: 2em;
+        margin-left: 0
+    }
+    
+
+
+
+
+
+
+
+/* page footer below-------------------- */
+    .footer-container
+    {
+        background-color: #ccbed4;
+        padding: 4rem 0 8rem 0;
+    }
+
+    .logoFooter{
+        margin: 20px 100px;
+    }
+
+    /*footer basics*/
+    .footer
+    {
+        width: 80%;
+        height: 25vh;
+        background-color: #ccbed4;
+        color: black;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        position: sticky;
+        bottom: 0;
+    }
+
+    /*footer organization*/
+    .footer-info
+    {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+
+    /*footer anchor details*/
+    .footer-info a
+    {
+        color: black;
+        text-decoration: none;
+        margin-bottom: 2rem;
+        margin-right: 5rem;
+    }
+
+    /*hover color footer*/
+    .footer-info a:hover
+    {
+        color: #cd9ee9;
+        transition: 0.1s ease-out;
+        text-decoration: underline;
+    }
+
+    .unorderd_list{
+        font-size: medium;
+        word-spacing: 2px;
+        width: 600px;
+        margin-left: 8em; 
+        margin-bottom: 3em;
     }
