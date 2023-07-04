@@ -1,0 +1,127 @@
+*
+    {
+        /* so padding reaches top and sides*/
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+/* header of page css ----------------------------*/
+
+    /* code for header blending in when scrolling */
+    #headerBlock.scrolled 
+    {
+        background-color: white; /* Change this to scroll choice color */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 75px;
+        transition: background-color 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    /* code for white padding block/header */
+    #headerBlock
+    {
+        padding: 2px;
+        transition: background-color 0.3s ease-in-out;
+        background-color: #ccbed4;  /* color to blend header into image*/
+    }
+
+    /* code for font size of logo home button */
+    #headerBlock p
+    {
+        font-size: 1.5em; 
+        margin: 20px;
+    }
+
+    /* get rid of underline of logo link */
+    #headerBlock a
+    {
+        text-decoration: none; 
+    }
+
+    /* code for dropdown menu size/location */
+    #headerBlock span
+    {
+        font-size: 30px;
+        cursor: pointer;
+        float: right;
+        width: 50px; 
+        margin: 20px;
+    }
+
+    /*Overlay*/
+    .overlay {
+        height: 0; /*No height comes from top*/
+        width: 100%; /*Width comes from top*/
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0); /*Color of drop*/
+        background-color: rgba(0,0,0, 0.9); /*With opaticy*/
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition: 0.5s;
+    }
+
+    /*How the content is postioned in overlay*/
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /*How the links will look inside the display*/
+    .overlay a 
+    {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: rgb(162, 162, 162);
+        display: block;
+        transition: 0.3s;
+    }
+
+    /*On mouse hover changes style of links*/
+    .overlay a:hover, .overlay a:focus 
+    {
+        color: #335e7e;
+    }
+
+    /*Where the close button while be*/
+    .overlay .closebtun 
+    {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    /* body section ----------------------------------*/
+
+    body 
+    {
+        /* font style and color of entire body*/
+        font-family: 'Merriweather Sans', sans-serif;
+        background-color: #335e7e;
+    }
+    .the_title {
+        text-align: center;
+        letter-spacing: -.02em;
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 2em;
+    }
+    .the_title_text {
+        max-width: 820px;
+        text-align: center;
+        margin: 16px auto 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+    }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="../css/client.css">
+        <link rel="stylesheet" href="../css/media.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <nav id="headerBlock">
+            <!-- Overley for menu for quick links-->
+            <div id="Quick_Links" class="overlay">
+    
+            <a href="javascript:void(0)" class="closebtun" onclick="closeLinks()">&times;</a>
+    
+            <div class="overlay-content">
+                <!-- Links-->
+                <a href="../Home_Page.html">Home</a>
+                <a href="Contanct_Info.html">Contact</a>
+                <a href="About_Me.html">About</a>
+                <a href="Resources.html">Resources</a>
+                <a href="Client_Experiences.html">Client Experiences</a>
+                <a href="Login.html">Login</a>
+            </div>
+            </div>
+    
+            <span onclick="openLinks()">&#9776;</span>
+            <!-- home link -->
+            <img src="../images/AGTransparentCrop.png" style="height: 50px; width: 50px; margin: 15px;"><a href="../Home_Page.html"></a></img>
+    
+        </nav>
+
+        <div class="bodyContainer">
+            <div class="contentcontainer">
+                <div class="contactcontainer">
+                    <h1 class="the_title">Client Experiences</h1>
+                    <p class="the_title_text">
+                        Browse what our clients say about us
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            /*Open the overlay*/
+            function openLinks() {
+                document.getElementById("Quick_Links").style.height = "100%";
+            }
+            /*Close the overlay*/
+            function closeLinks() {
+                document.getElementById("Quick_Links").style.height = "0%";
+            }
+        
+            /*header checks if user scrolling*/
+            window.addEventListener('scroll', function() 
+            {
+                var headerBlock = document.getElementById('headerBlock');
+                var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+                if (scrollTop > 0) 
+                {
+                headerBlock.classList.add('scrolled');
+                } 
+                else 
+                {
+                headerBlock.classList.remove('scrolled');
+                }
+            });
+        </script>
+        
+    </body>
+</html>
