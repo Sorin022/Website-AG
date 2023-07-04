@@ -145,6 +145,7 @@
     
     .quote {
         border: 1px solid #ccc;
+        border-radius: 2px;
         padding: 1em;
         quotes: "\201C" "\201D";
     }
