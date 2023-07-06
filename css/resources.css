@@ -6,6 +6,10 @@
     box-sizing: border-box;
   }
 
+  body{
+    color: white;
+  }
+
   /* header of page css ----------------------------*/
 
   /* code for header blending in when scrolling */
@@ -118,15 +122,17 @@
   }
   
   .block1-content {
-    margin: 6em;
     width: 100%;
     font-size: 1.5em;
     margin-left: 4em;
+    margin-right: 4em;
   }
   
   .block1-content h2 {
+    margin-top: 2em;
     font-size: larger;
     word-spacing: 2px;
+    color: #cd9ee9;
   }
   
   .block1-content p {
@@ -135,67 +141,28 @@
     line-height: 1.5;
     width: 100%;
   }
-  
-  
 
-/*block2---------------------*/
-
-#block2 {
-    display: flex;
-    align-items: center;
-  }
-  
-  .block2-content {
-    margin: 6em;
-    width: 100%;
-    font-size: 1.5em;
-  }
-  
-  .block2-content h2 {
-    font-size: larger;
-    word-spacing: 2px;
-  }
-  
-  .block2-content p {
-    font-size: large;
-    word-spacing: 2px;
-    line-height: 1.5;
-    width: 100%;
+  h1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #cd9ee9;
   }
 
-  
-  .imageright
-  {
-    float: right;
-    margin: 30px 60px;
-    width: 400px;
-    height: 500px;
-    margin-right: 8.5em;
-    border: 5px solid #cd9ee9;
-    border-radius: 10%;
+  /*Get this switch color fade thing to work*/
+
+  .li{
+    margin-left: 2em;
   }
 
-  .unorderlist{
-    margin-left: 4em;
-    font-size: large;
-    word-spacing: 2px;
-    line-height: 1.5;
-    width: 1000px;
-    list-style: square;
-  }
-  
-
-   /* first section. adjust height, image, and information accordingly */
-  .intro 
-  {
-    background-image: url('../images/AGBig.JPG');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+  .li a{
+    color: white;
+    text-decoration: underline;
   }
 
-  .intro-text{
-    font-size: 2em;
+  .li a:hover{
+    color: #cd9ee9;
+    transition: 0.1s ease-out;
+    text-decoration: underline;
   }
   
 
