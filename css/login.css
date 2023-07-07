@@ -6,10 +6,6 @@
     box-sizing: border-box;
   }
 
-  body{
-    color: black;
-  }
-
   /* header of page css ----------------------------*/
 
   /* code for header blending in when scrolling */
@@ -106,6 +102,45 @@
     font-size: 60px;
   }
 
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* On hover */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* The dots */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+
 
   /* page body below---------------------*/
 
@@ -122,17 +157,9 @@
   }
   
   .block1-content {
+    margin: 6em;
     width: 100%;
     font-size: 1.5em;
-    margin-left: 4em;
-    margin-right: 4em;
-  }
-  
-  .block1-content h2 {
-    margin-top: 2em;
-    font-size: larger;
-    word-spacing: 2px;
-    color: #cd9ee9;
   }
   
   .block1-content p {
@@ -140,39 +167,25 @@
     word-spacing: 2px;
     line-height: 1.5;
     width: 100%;
+    color: white;
+    
   }
 
   h1 {
     margin-top: 2em;
-    margin-bottom: 2em;
     color: #cd9ee9;
   }
 
-  /*Get this switch color fade thing to work*/
-
-  .ol {
-    color: white;
-  }
-
-  .li{
-    margin-left: 2em;
-  }
-
-  .li p{
-    color: white;
-  }
-
-  .li a{
+  .link{
     color: white;
     text-decoration: underline;
   }
 
-  .li a:hover{
+  .link:hover{
     color: #cd9ee9;
     transition: 0.1s ease-out;
     text-decoration: underline;
   }
-  
 
   /* page footer below-------------------- */
   
@@ -226,15 +239,6 @@
     transition: 0.1s ease-out;
     text-decoration: underline;
   }
-
-  .unorderd_list{
-    font-size: medium;
-    word-spacing: 2px;
-    width: 600px;
-    margin-left: 8em; 
-    margin-bottom: 3em;
-  }
-
   /*slideshow?*/
 
   .fade {
@@ -246,4 +250,4 @@
     @keyframes fade {
       from {opacity: 0} 
       to {opacity: 1}
-  }
+  } 
