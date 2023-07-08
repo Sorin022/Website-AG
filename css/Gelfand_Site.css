@@ -188,13 +188,37 @@
     margin-top: 6em;
     /*background-color: #7a876b;*/
   }
-  .box1
-  {
+  .box1 {
     width: 350px;
     background-color: #b394b3;
     border: 1px solid grey;
     margin: 30px;
+    transition: border-color 0.3s; /* Add transition for smooth effect */
   }
+  
+  .box1:hover {
+    border: 3px solid #cd9ee9;
+  }
+  
+  .box1:hover .box1-title,
+  .box1:hover a {
+    color: white; /* Change text color on hover */
+    transition: color 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .box1-link {
+    text-decoration: none;
+  }
+
+  .box1-link:hover .box1 {
+    border-color: #cd9ee9;
+  }
+
+  .box1-link:hover .box1 .box1-title,
+  .box1-link:hover .box1 a {
+    color: white;
+  }
+  
 
   .box1-image
   {
