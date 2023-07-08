@@ -186,14 +186,13 @@
     margin: 20px 0px;
     flex-wrap: wrap;
     margin-top: 6em;
-    /*background-color: #7a876b;*/
   }
   .box1 {
     width: 350px;
     background-color: #b394b3;
     border: 2px solid white;
     margin: 30px;
-    transition: border-color 0.3s; /* Add transition for smooth effect */
+    transition: border-color 0.3s;
   }
   
   .box1:hover {
@@ -202,8 +201,8 @@
   
   .box1:hover .box1-title,
   .box1:hover a {
-    color: white; /* Change text color on hover */
-    transition: color 0.3s; /* Add transition for smooth effect */
+    color: white;
+    transition: color 0.3s;
   }
 
   .box1-link {
