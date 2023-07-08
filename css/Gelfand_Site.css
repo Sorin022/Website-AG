@@ -191,7 +191,7 @@
   .box1 {
     width: 350px;
     background-color: #b394b3;
-    border: 1px solid grey;
+    border: 2px solid white;
     margin: 30px;
     transition: border-color 0.3s; /* Add transition for smooth effect */
   }
@@ -205,7 +205,7 @@
     color: white; /* Change text color on hover */
     transition: color 0.3s; /* Add transition for smooth effect */
   }
-  
+
   .box1-link {
     text-decoration: none;
   }
