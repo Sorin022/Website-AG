@@ -8,10 +8,9 @@
   </head>
   <body>
 
-    <!-- make the transition between the click and the drop down smooth.
-         make the inside much nicer looking looks like trash right now.
-         make the button look much nice see what you can do about the
-         rounding. find all apple and iphone links.-->
+    <!-- make arrow chage approperatly for the click off and on.
+         right now works when you click away from it but not when you click the button again.
+         find all apple and iphone links.-->
 
     <!-- header for padding block-->
     <nav id="headerBlock">
@@ -48,9 +47,13 @@
     </p>
 
     <br>
+    <br>
+    <br>
+    <br>
 
+    
     <div class="dropdown">
-      <button onclick="dropdown()" class="dropdownbuton">Websites and Aritcles</button>
+      <center><button onclick="dropdown()" class="dropdownbuton" id="button"> > Websites and Aritcles</button></center>
       <div  id="dropdown-content" class="dropdown-content">
           <h2> Helpfull Websites & Reports</h2>
 
@@ -104,9 +107,8 @@
     </div>
 
 
-
     <div class="dropdown">
-      <button onclick="dropdown2()" class="dropdownbuton">Books</button>
+      <center><button onclick="dropdown2()" class="dropdownbuton"> Books</button></center>
       <div  id="dropdown-content2" class="dropdown-content">
           <h2>Books</h2>
 
@@ -142,9 +144,10 @@
 
       </div>
     </div>
-          
+  
+    
     <div class="dropdown">
-      <button onclick="dropdown3()" class="dropdownbuton">Apps</button>
+      <center><button onclick="dropdown3()" class="dropdownbuton"> Apps</button></center>
       <div  id="dropdown-content3" class="dropdown-content">
           <h2>Apps</h2>
             
@@ -189,6 +192,16 @@
         
       </div>
     </div>
+  
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
 
 
     <div class="content">
@@ -245,6 +258,7 @@
       
       function dropdown() {
         document.getElementById("dropdown-content").classList.toggle("show");
+        document.getElementById("button").innerHTML = "&#709; Websites and Articles";
       }
 
       function dropdown2() {
@@ -264,6 +278,7 @@
             var openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
               openDropdown.classList.remove('show');
+              document.getElementById("button").innerHTML = "> Websites and Articles";
             }
           }
         }

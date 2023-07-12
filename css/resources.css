@@ -114,6 +114,7 @@
     /* font style and color of entire body*/
     font-family: 'Merriweather Sans', sans-serif;
     background-color: #335e7e;
+    overflow: scroll;
   }
 
   #block1 {
@@ -155,7 +156,7 @@
   }
 
   .li{
-    margin-left: 2em;
+    margin-left: 4em;
   }
 
   .li p{
@@ -165,6 +166,7 @@
   .li a{
     color: white;
     text-decoration: underline;
+    margin-left: 2em;
   }
 
   .li a:hover{
@@ -234,20 +236,6 @@
     margin-left: 8em; 
     margin-bottom: 3em;
   }
-
-  /*slideshow?*/
-
-  .fade {
-      animation-name: fade;
-      animation-duration: 5s;
-      transition: opacity 0.75s;
-  }
-    
-    @keyframes fade {
-      from {opacity: 0} 
-      to {opacity: 1}
-  }
-
   .paragraph{
     margin-left: 2em;
     margin-right: 2em;
@@ -277,16 +265,32 @@
   
   .dropdown-content {
     display: none;
-    background-color: black;
+    background-color: #335e7e;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   
   .dropdown-content p {
     color: white;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
+  }
+
+  .dropdown-content h2 {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    margin-left: 1em;
   }
   
   .show {display: block;}
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 5s;
+    transition: opacity 0.75s;
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.5} 
+    to {opacity: 1}
+  }
