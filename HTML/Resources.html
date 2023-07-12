@@ -8,6 +8,11 @@
   </head>
   <body>
 
+    <!-- make the transition between the click and the drop down smooth.
+         make the inside much nicer looking looks like trash right now.
+         make the button look much nice see what you can do about the
+         rounding. find all apple and iphone links.-->
+
     <!-- header for padding block-->
     <nav id="headerBlock">
       <!-- Overley for menu for quick links-->
@@ -36,19 +41,18 @@
 
     <center><h1>Resources</h1></center>
 
-    <div id="block1">
-      <div class="block1-content">
-          <p style="color: white">There is a vast array of literature available for those seeking to improve their mental health or understand an illness.
-             These are only a few of those resources, but they are ones my clients find very helpful.
-             I do not have any relationship with these organizations or authors, they are simply resources that have proven to be valuable.
-             If you have a resource that you think I should add to this list, please let me know.
-          </p>
+    <p class="paragraph">There is a vast array of literature available for those seeking to improve their mental health or understand an illness.
+      These are only a few of those resources, but they are ones my clients find very helpful.
+      I do not have any relationship with these organizations or authors, they are simply resources that have proven to be valuable.
+      If you have a resource that you think I should add to this list, please let me know.
+    </p>
 
-          <br>
+    <br>
 
+    <div class="dropdown">
+      <button onclick="dropdown()" class="dropdownbuton">Websites and Aritcles</button>
+      <div  id="dropdown-content" class="dropdown-content">
           <h2> Helpfull Websites & Reports</h2>
-
-          <br>
 
           <ol class="ol">
               <li class="li">
@@ -105,11 +109,15 @@
 
           </ol>
 
-          <br>
+      </div>
+    </div>
 
+
+
+    <div class="dropdown">
+      <button onclick="dropdown2()" class="dropdownbuton">Books</button>
+      <div  id="dropdown-content2" class="dropdown-content">
           <h2>Books</h2>
-
-          <br>
 
           <ol class = "ol">
               <li class="li">
@@ -140,12 +148,14 @@
 
               <br>
           </ol>
+
+      </div>
+    </div>
           
-          <br>
-
+    <div class="dropdown">
+      <button onclick="dropdown3()" class="dropdownbuton">Apps</button>
+      <div  id="dropdown-content3" class="dropdown-content">
           <h2>Apps</h2>
-
-          <br>
             
           <ol class="ol">
               <li class="li">
@@ -216,7 +226,6 @@
         </div>
       </div>
 
-
     <script>
       /*Open the overlay*/
       function openLinks() {
@@ -242,6 +251,33 @@
           headerBlock.classList.remove('scrolled');
         }
       });
+      
+      function dropdown() {
+        document.getElementById("dropdown-content").classList.toggle("show");
+      }
+
+      function dropdown2() {
+        document.getElementById("dropdown-content2").classList.toggle("show");
+      }
+
+      function dropdown3() {
+        document.getElementById("dropdown-content3").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropdownbuton')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+
     </script>
       
   </body>
