@@ -110,6 +110,10 @@
         font-family: 'Merriweather Sans', sans-serif;
         background-color: #335e7e;
     }
+
+    .overheadcontainer{
+        color: white;
+    }
     .the_title {
         text-align: center;
         letter-spacing: -.02em;
@@ -144,11 +148,21 @@
     }
     
     .quote {
-        border: 1px solid #ccc;
-        border-radius: 2px;
+        background-color: white;
+        border-radius: 5px;
         padding: 1em;
         quotes: "\201C" "\201D";
     }
+
+    .quote:hover {
+        background-color: #ffffff;
+        border: 2px solid #cd9ee9;
+    }
+    
+    .quote:hover p {
+        color: #000;
+    }
+    
     
     .quote p {
         quotes: none;
@@ -156,15 +170,16 @@
     
     .quote::before {
         content: open-quote;
-        font-size: 2em;
-        margin-right: 0;
+        font-size: 3em;
+        margin-right: 0em;
     }
-    
+
     .quote::after {
         content: close-quote;
-        font-size: 2em;
+        font-size: 3em;
         margin-left: 0;
     }
+
     
 
 

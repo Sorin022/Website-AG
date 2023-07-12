@@ -8,6 +8,11 @@
   </head>
   <body>
 
+    <!-- make the transition between the click and the drop down smooth.
+         make the inside much nicer looking looks like trash right now.
+         make the button look much nice see what you can do about the
+         rounding. find all apple and iphone links.-->
+
     <!-- header for padding block-->
     <nav id="headerBlock">
       <!-- Overley for menu for quick links-->
@@ -22,7 +27,7 @@
           <a href="About_Me.html">About me</a>
           <a href="Resources.html">Resources</a>
           <a href="Client_Experiences.html">Client Experiences</a>
-          <a href="Login.html">Patient Portal</a>
+          <a href="https://www.therapyportal.com/p/audreygelfand/">Patient Portal</a>
         </div>
       </div>
 
@@ -36,24 +41,23 @@
 
     <center><h1>Resources</h1></center>
 
-    <div id="block1">
-      <div class="block1-content">
-          <p>There is a vast array of literature available for those seeking to improve their mental health or understand an illness.
-             These are only a few of those resources, but they are ones my clients find very helpful.
-             I do not have any relationship with these organizations or authors, they are simply resources that have proven to be valuable.
-             If you have a resource that you think I should add to this list, please let me know.
-          </p>
+    <p class="paragraph">There is a vast array of literature available for those seeking to improve their mental health or understand an illness.
+      These are only a few of those resources, but they are ones my clients find very helpful.
+      I do not have any relationship with these organizations or authors, they are simply resources that have proven to be valuable.
+      If you have a resource that you think I should add to this list, please let me know.
+    </p>
 
-          <br>
+    <br>
 
+    <div class="dropdown">
+      <button onclick="dropdown()" class="dropdownbuton">Websites and Aritcles</button>
+      <div  id="dropdown-content" class="dropdown-content">
           <h2> Helpfull Websites & Reports</h2>
 
-          <br>
-
-          <ol>
+          <ol class="ol">
               <li class="li">
-                  NAMI – The National Association for the Mentally Ill. 
-                  Helpful information about mental illness and how we can support those dealing with significant mental health challenges.
+                  <p>NAMI – The National Association for the Mentally Ill. 
+                  Helpful information about mental illness and how we can support those dealing with significant mental health challenges.</p>
                   <br>
                   <br>
                   <a href="https://www.nami.org/Home ">Nami</a>
@@ -63,8 +67,8 @@
 
               <!-- margin space in between each li in the ol-->
               <li class="li">
-                  PFLAG is an organization that provides information and support to queer people and their families. 
-                  They have a lot of information, and it is especially helpful to parents who have a queer child.
+                  <p>PFLAG is an organization that provides information and support to queer people and their families. 
+                  They have a lot of information, and it is especially helpful to parents who have a queer child.</p>
                   <br>
                   <br>
                   <a href="https://pflag.org/">PFLAG</a>
@@ -76,7 +80,7 @@
 
               <!-- margin space in between each li in the ol-->
               <li class="li">
-                  Suicide prevention information. If you are a patient and have feelings of suicide, please call the office, ASAP. 
+                  <p>Suicide prevention information. If you are a patient and have feelings of suicide, please call the office, ASAP.</p>
                   <br>
                   <br>
                   <a href="https://www.cdc.gov/suicide/index.html ">Suicide Prevention</a>
@@ -86,7 +90,7 @@
 
               <!-- margin space in between each li in the ol-->
               <li class="li">
-                  The Surgeon General, Dr. Vivek Murthy is dedicated to understanding how loneliness impacts emotional and physical health. His report is here: 
+                  <p>The Surgeon General, Dr. Vivek Murthy is dedicated to understanding how loneliness impacts emotional and physical health. His report is here: </p>
                   <br>
                   <br>
                   <a href="https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf ">Dr. Vivek Murthy</a>
@@ -96,15 +100,19 @@
 
           </ol>
 
-          <br>
+      </div>
+    </div>
 
+
+
+    <div class="dropdown">
+      <button onclick="dropdown2()" class="dropdownbuton">Books</button>
+      <div  id="dropdown-content2" class="dropdown-content">
           <h2>Books</h2>
 
-          <br>
-
-          <ol>
+          <ol class = "ol">
               <li class="li">
-                  The Body Keeps the Score – Understanding how Trauma affects us and how it is expressed though our bodies. 
+                  <p>The Body Keeps the Score – Understanding how Trauma affects us and how it is expressed though our bodies. </p>
                   Fascinating and very instructive. 
                   <br>
                   <br>
@@ -114,7 +122,7 @@
               <br>
 
               <li class="li">
-                  The Narcissistic parent and parental alienation for those dealing with the trauma of having a narcissistic parent. This book helps people regain a positive sense of themselves and helps to leave the abusive parent behind. 
+                  <p>The Narcissistic parent and parental alienation for those dealing with the trauma of having a narcissistic parent. This book helps people regain a positive sense of themselves and helps to leave the abusive parent behind. </p>
                   <br>
                   <br>
                   <a href="https://www.amazon.com/gp/product/B01K2O0GIY/ref=ppx_yo_dt_b_d_asin_title_o07aud_?ie=UTF8&psc=1">The Narcissistic Parent and Parental Alienation</a>
@@ -123,7 +131,7 @@
               <br>
 
               <li class="li">
-                  Wired for Love A great resource for couples seeking to improve their relationship and communication.
+                  <p>Wired for Love A great resource for couples seeking to improve their relationship and communication.</p>
                   <br>
                   <br>
                   <a href="https://www.amazon.com/gp/product/B016WTDHTI/ref=ppx_yo_dt_b_d_asin_title_o03aud_?ie=UTF8&psc=1 ">Wired for Love</a>
@@ -131,43 +139,48 @@
 
               <br>
           </ol>
+
+      </div>
+    </div>
           
-          <br>
-
+    <div class="dropdown">
+      <button onclick="dropdown3()" class="dropdownbuton">Apps</button>
+      <div  id="dropdown-content3" class="dropdown-content">
           <h2>Apps</h2>
-
-          <br>
             
-          <ol>
+          <ol class="ol">
               <li class="li">
-                  Calm – good for mindfulness 
+                  <p>Calm – good for mindfulness</p>
                   <br>
                   <br>
                   <!-- Get a link for android and iphone-->
-                  <a href="">Calm</a>
-                  <a href="">Calm</a>
+                  <p>Android: <a href="">Calm</a></p>
+                  <br>
+                  <p>Apple: <a href="">Calm</a></p>
               </li>
 
               <br>
 
               <li class="li">
-                  Insight Timer – good for meditation and relaxation 
+                  <p>Insight Timer – good for meditation and relaxation </p>
                   <br>
                   <br>
                   <!-- Get a link for android and iphone-->
-                  <a href="">Insight Timer</a>
-                  <a href="">Insight Timer</a>
+                  <p>Android: <a href="">Insight Timer</a></p>
+                  <br>
+                  <p>Apple: <a href="">Insight Timer</a></p>
               </li>
                 
               <br>
 
               <li class="li">
-                  White Noise Machine – good for improving sleep  
+                  <p>White Noise Machine – good for improving sleep  </p>
                   <br>
                   <br>
                   <!-- Get a link for android and iphone-->
-                  <a href="">White Noise Machine</a>
-                  <a href="">White Noise Machine</a>
+                  <p>Android: <a href="">White Noise Machine</a></p>
+                  <br>
+                  <P>Apple: <a href="">White Noise Machine</a></p>
               </li>
 
               <br>
@@ -204,7 +217,6 @@
         </div>
       </div>
 
-
     <script>
       /*Open the overlay*/
       function openLinks() {
@@ -230,6 +242,33 @@
           headerBlock.classList.remove('scrolled');
         }
       });
+      
+      function dropdown() {
+        document.getElementById("dropdown-content").classList.toggle("show");
+      }
+
+      function dropdown2() {
+        document.getElementById("dropdown-content2").classList.toggle("show");
+      }
+
+      function dropdown3() {
+        document.getElementById("dropdown-content3").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropdownbuton')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+
     </script>
       
   </body>

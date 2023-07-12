@@ -186,15 +186,38 @@
     margin: 20px 0px;
     flex-wrap: wrap;
     margin-top: 6em;
-    /*background-color: #7a876b;*/
   }
-  .box1
-  {
+  .box1 {
     width: 350px;
     background-color: #b394b3;
-    border: 1px solid grey;
+    border: 2px solid white;
     margin: 30px;
+    transition: border-color 0.3s;
   }
+  
+  .box1:hover {
+    border: 3px solid #cd9ee9;
+  }
+  
+  .box1:hover .box1-title,
+  .box1:hover a {
+    color: white;
+    transition: color 0.3s;
+  }
+
+  .box1-link {
+    text-decoration: none;
+  }
+
+  .box1-link:hover .box1 {
+    border-color: #cd9ee9;
+  }
+
+  .box1-link:hover .box1 .box1-title,
+  .box1-link:hover .box1 a {
+    color: white;
+  }
+  
 
   .box1-image
   {
