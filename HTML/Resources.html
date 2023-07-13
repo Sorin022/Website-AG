@@ -8,11 +8,7 @@
   </head>
   <body>
 
-    <!-- make arrow chage approperatly for the click off and on.
-         right now works when you click away from it but not when you click the button again.
-         find all apple and iphone links.-->
-
-    <!-- Onclick of closeing the button you want the text to switch to the right arrow and on click again you want to be the down-->
+    <!--add the other two functions for the rest of the drop downs-->
 
     <!-- header for padding block-->
     <nav id="headerBlock">
@@ -110,7 +106,7 @@
 
 
     <div class="dropdown">
-      <center><button onclick="dropdown2()" class="dropdownbuton"> Books</button></center>
+      <center><button onclick="dropdown2()" class="dropdownbuton" id="button2"> > Books</button></center>
       <div  id="dropdown-content2" class="dropdown-content">
           <h2>Books</h2>
 
@@ -149,7 +145,7 @@
   
     
     <div class="dropdown">
-      <center><button onclick="dropdown3()" class="dropdownbuton"> Apps</button></center>
+      <center><button onclick="dropdown3()" class="dropdownbuton" id="button3"> > Apps</button></center>
       <div  id="dropdown-content3" class="dropdown-content">
           <h2>Apps</h2>
             
@@ -265,13 +261,30 @@
 
       function dropdown2() {
         document.getElementById("dropdown-content2").classList.toggle("show");
+        document.getElementById("button2").innerHTML = "&#709; Books";
       }
 
       function dropdown3() {
         document.getElementById("dropdown-content3").classList.toggle("show");
+        document.getElementById("button3").innerHTML = "&#709; Apps";
       }
 
-      // Close the dropdown if the user clicks outside of it
+
+      var button = document.getElementById("button");
+
+      button.onclick = function(event) {
+        var dropdownContent = document.getElementById("dropdown-content");
+        dropdownContent.classList.toggle("show");
+        var isDropdownVisible = dropdownContent.classList.contains("show");
+
+        if (isDropdownVisible) {
+          button.innerHTML = " &#709; Websites and Articles";
+        } else {
+          button.innerHTML = " > Websites and Articles";
+        }
+      };
+
+      
       window.onclick = function(event) {
         if (!event.target.matches('.dropdownbuton')) {
           var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -280,11 +293,11 @@
             var openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
               openDropdown.classList.remove('show');
-              document.getElementById("button").innerHTML = "> Websites and Articles";
             }
           }
         }
       }
+      
 
     </script>
       
