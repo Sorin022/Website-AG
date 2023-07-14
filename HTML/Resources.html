@@ -112,8 +112,7 @@
 
           <ol class = "ol">
               <li class="li">
-                  <p>The Body Keeps the Score – Understanding how Trauma affects us and how it is expressed though our bodies. </p>
-                  Fascinating and very instructive. 
+                  <p>The Body Keeps the Score – Understanding how Trauma affects us and how it is expressed though our bodies. Fascinating and very instructive.</p> 
                   <br>
                   <br>
                   <a href="https://www.amazon.com/Body-Keeps-Score-Healing-Trauma/dp/B08TX585RN/ref=sr_1_1?crid=RRN84HZ9QUED&keywords=the+body+keeps+the+score&qid=1688406796&sprefix=body+k%2Caps%2C86&sr=8-1 ">The Body Keeps the Score</a>
@@ -155,9 +154,9 @@
                   <br>
                   <br>
                   <!-- Get a link for android and iphone-->
-                  <p>Android: <a href="">Calm</a></p>
+                  <p>Android:<a href="https://play.google.com/store/apps/details?id=com.calm.android&hl=en_US&gl=US&pli=1">Calm</a></p>
                   <br>
-                  <p>Apple: <a href="">Calm</a></p>
+                  <p>Apple:<a href="https://apps.apple.com/us/app/calm/id571800810">Calm</a></p>
               </li>
 
               <br>
@@ -167,9 +166,9 @@
                   <br>
                   <br>
                   <!-- Get a link for android and iphone-->
-                  <p>Android: <a href="">Insight Timer</a></p>
+                  <p>Android:<a href="https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite2&hl=en_US&gl=US">Insight Timer</a></p>
                   <br>
-                  <p>Apple: <a href="">Insight Timer</a></p>
+                  <p>Apple:<a href="https://apps.apple.com/vc/app/insight-timer-meditation-app/id337472899">Insight Timer</a></p>
               </li>
                 
               <br>
@@ -179,9 +178,9 @@
                   <br>
                   <br>
                   <!-- Get a link for android and iphone-->
-                  <p>Android: <a href="">White Noise Machine</a></p>
+                  <p>Android:<a href="https://play.google.com/store/apps/details?id=com.tmsoft.whitenoise.lite&hl=en_US&gl=US">White Noise Machine</a></p>
                   <br>
-                  <P>Apple: <a href="">White Noise Machine</a></p>
+                  <P>Apple:<a href="https://apps.apple.com/us/app/sound-machine-white-noise/id1534157897">White Noise Machine</a></p>
               </li>
 
               <br>
@@ -216,7 +215,7 @@
             <a href="Resources.html">Resources</a>
           </div>
           <div class="footer-info footer-2">
-            <a href="mailto: audreygelfand@gmail.com">Email</a>
+            <a href="mailto:  office@audreygelfand.com">Email</a>
             <a href="tel:914-282-8705">Telephone</a>
             <a href="https://www.google.com/maps/place/Audrey+R.+Gelfand,+PHD/@41.1458359,-73.8390587,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2bf6148a65617:0x945021abdc9225ed!8m2!3d41.1458359!4d-73.8364838!16s%2Fg%2F1tdcy04p?entry=ttu">My Office</a>
             <a href="#">Feedback</a>
@@ -281,6 +280,34 @@
           button.innerHTML = " &#709; Websites and Articles";
         } else {
           button.innerHTML = " > Websites and Articles";
+        }
+      };
+
+      var button2 = document.getElementById("button2");
+
+      button2.onclick = function(event) {
+        var dropdownContent = document.getElementById("dropdown-content2");
+        dropdownContent.classList.toggle("show");
+        var isDropdownVisible = dropdownContent.classList.contains("show");
+
+        if (isDropdownVisible) {
+          button2.innerHTML = " &#709; Books";
+        } else {
+          button2.innerHTML = " > Books";
+        }
+      };
+
+      var button3 = document.getElementById("button3");
+
+      button3.onclick = function(event) {
+        var dropdownContent = document.getElementById("dropdown-content3");
+        dropdownContent.classList.toggle("show");
+        var isDropdownVisible = dropdownContent.classList.contains("show");
+
+        if (isDropdownVisible) {
+          button3.innerHTML = " &#709; Apps";
+        } else {
+          button3.innerHTML = " > Apps";
         }
       };
 
