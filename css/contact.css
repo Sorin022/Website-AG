@@ -131,10 +131,10 @@
 
     .contact-us-box {
         width: 25%;
-        height: 300px;
+        height: 200px;
         background-color: #ccbed4;
         float: right;
-        display: flex;
+        display: table-column;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -206,7 +206,6 @@
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 12px;
-        opacity: 0.6;
         transition: 0.3s;
     }
     
