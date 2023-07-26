@@ -289,6 +289,27 @@
     animation-duration: 5s;
     transition: opacity 0.75s;
   }
+
+  .button1 {
+    background-color: #cd9ee9;
+    color: #000;
+    border: none;
+    padding: 5px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 0.3s;
+  }
+
+  .button1:hover {
+    background-color: #cd9ee9;
+    color: white;
+  }
   
   @keyframes fade {
     from {opacity: 0.5} 
