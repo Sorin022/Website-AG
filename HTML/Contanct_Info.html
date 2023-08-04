@@ -55,21 +55,18 @@
 
         <div class="contact-form-container">
             <form class="contact-form">
-                <label for="name">First Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" placeholder="First Name" name="name" required>
 
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last-name" required>
+                <input type="text" id="last-name" placeholder="Last Name" name="last-name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" placeholder="Email" name="email" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea id="message" placeholder="Message" name="message" rows="4" required></textarea>
 
                 <button type="submit">Submit</button>
             </form>
         </div>
+        
 
 
 
@@ -130,6 +127,10 @@
                 headerBlock.classList.remove('scrolled');
                 }
             });
+
+
+            //email message sending for the form
+            
         </script>
     </body>
 </html>
