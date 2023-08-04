@@ -1,0 +1,412 @@
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+  /*Some test stuff for if the height of the screen is less than 450px*/
+  @media screen and (max-height: 450px) 
+  {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  /* Screen Sie differences for footer-------------*/
+  @media screen and (max-width: 1150px) 
+  {
+   .footer
+   {
+     height: 60vh;
+   }
+  }
+  
+  @media screen and (max-width: 820px) 
+  {
+   .footer
+   {
+     padding-top: 1rem;
+   }
+  }
+  
+  @media screen and (max-width: 720px) 
+  {
+   .footer
+   {
+     padding-bottom: 1rem;
+   }
+  }
+  
+  /*1426 px*/
+  @media screen and (max-width:1427px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  }
+  
+  
+  /*1280 px*/
+  @media screen and (max-width:1285px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  }
+  
+  /*1120 px*/
+  @media screen and (max-width:1190px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  }
+  
+  
+  /*1024 px*/
+  @media screen and (max-width:1025px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  }
+  
+  /*912 px or surface pro*/
+  @media screen and (max-width:913px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  }
+  
+  /*820 px or ipad air*/
+  @media screen and (max-width:821px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  
+  }
+  
+   /*768 px or ipad mini*/
+   @media screen and (max-width:769px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  
+  }
+  
+  /*690 px*/
+  @media screen and (max-width:690px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  
+  }
+  
+  
+  /*540px and below*/
+  @media screen and (max-width:541px){
+    .logoFooter{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  }
+  
+  /*462px*/
+  @media screen and (max-width:463px){
+    .logoFooter{
+        display: none;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+   
+      .button1{
+       margin-right: 2em;
+      }
+     
+  }
+  
+  /*415px and below*/
+  @media screen and (max-width:415px){
+    .logoFooter{
+        display: none;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+   
+      .button1{
+       margin-right: 2em;
+      }
+     
+  
+  }
+  
+  /*376 px*/
+  @media screen and (max-width:376px){
+    .logoFooter{
+        display: none;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+   
+      .button1{
+       margin-right: 2em;
+      }
+     
+  
+  }
+  
+  /*280 px or galaxy fold*/
+  @media screen and (max-width:281px){
+    .logoFooter{
+        display: none;
+      }
+     
+      .footer-info
+      {
+        margin-right: 2rem;
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .intro-text{
+        font-size: 1em;
+      }
+     
+      .intro {
+          height: 300px;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  }
