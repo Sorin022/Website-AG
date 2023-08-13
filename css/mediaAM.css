@@ -75,7 +75,7 @@
     }
 
     .logoFooter{
-        display: none;
+        display: inline;
     }
     
     .footer-info{
@@ -124,19 +124,18 @@
     .unorderlist li{
         margin-left: 2em;
     }
-
-    .logoFooter{
-        display: none;
-    }
     
     .footer-info{
         margin-right: 2rem;
     }
     
+    .logoFooter{
+        display: inline;
+    }
     
     .footer-info a{
         margin-bottom: 1rem;
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
   }
   
@@ -176,7 +175,7 @@
     }
 
     .logoFooter{
-        display: none;
+        display: inline;
     }
     
     .footer-info{
@@ -186,7 +185,7 @@
     
     .footer-info a{
         margin-bottom: 1rem;
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
   }
   
