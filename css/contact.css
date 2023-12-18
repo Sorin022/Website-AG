@@ -214,6 +214,10 @@
         background-color: #cd9ee9;
         color: white;
     }
+
+    .email{
+        font-size: medium;
+    }
     
 
 
@@ -243,7 +247,7 @@
   /*footer basics*/
   .footer
   {
-    width: 80%;
+    width: 70%;
     height: 25vh;
     background-color: #ccbed4;
     color: black;
