@@ -174,6 +174,7 @@
     margin-right: 8.5em;
     border: 5px solid #cd9ee9;
     border-radius: 10%;
+    margin-top: 5rem;
   }
 
   .unorderlist{
@@ -226,6 +227,7 @@
     margin: 0 auto;
     position: sticky;
     bottom: 0;
+    margin-left: 24rem;
   }
 
   /*footer organization*/

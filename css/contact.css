@@ -142,6 +142,7 @@
         margin-bottom: 7em;
         padding: 20px;
         border-radius: 5px;
+        margin-right: 15em;
     }
     
     .contact-us-box p {
@@ -249,9 +250,9 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 0 auto;
     position: sticky;
     bottom: 0;
+    margin-left: 24rem;
   }
 
   /*footer organization*/
