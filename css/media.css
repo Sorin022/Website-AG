@@ -194,6 +194,11 @@
     margin-left: 1.5em;
   }
 
+  .footer{
+    margin:0;
+    margin-left: 3rem;
+  }
+
 
 }
 
@@ -284,9 +289,9 @@
   .imageright
   {
     margin-top: 9em;
-    margin-right: 5em;
+    margin-left: 5rem;
     width: 250px;
-    height: 225px;
+    height: 300px;
   }
  
   .imageleft
@@ -295,7 +300,7 @@
     margin-right: 2em;
     margin-left: 11em;
     width: 250px;
-    height: 150px;
+    height: 250px;
   }
  
   .block1-content {
@@ -364,6 +369,11 @@
     margin-left: 1.75em;
   }
 
+  .footer{
+    margin: 0;
+    margin-left: 8rem;
+  }
+
 }
 
 /*912 px or surface pro*/
@@ -373,7 +383,7 @@
     margin-top: 9em;
     margin-right: 5em;
     width: 250px;
-    height: 200px;
+    height: 300px;
   }
  
   .imageleft
@@ -455,12 +465,13 @@
 
 /*820 px or ipad air*/
 @media screen and (max-width:821px){
-   .imageright
+  .imageright
  {
    margin-top: 9em;
-   margin-right: 5em;
+   margin-left: 3rem;
+   margin-right: 2rem;
    width: 250px;
-   height: 200px;
+   height: 300px;
  }
 
  .imageleft
@@ -534,6 +545,11 @@
   margin-left: 1.5em;
  }
 
+ .footer{
+  margin: 0;
+  margin-left: 6rem;
+ }
+
 }
 
  /*768 px or ipad mini*/
@@ -603,6 +619,12 @@
  {
    margin-bottom: 1rem;
    margin-right: 3rem;
+ }
+
+ .footer
+ {
+    margin: 0;
+    margin-left: 8rem;
  }
 
 }
@@ -846,7 +868,7 @@
   }
 
   .button2{
-    margin-left: 1.5em;
+    margin-left: 3.25em;
   }
 
 
@@ -864,6 +886,12 @@
  {
    margin-bottom: 1rem;
    margin-right: 3rem;
+ }
+
+ .footer
+ {
+    margin: 0;
+    margin-left: 2rem;
  }
 
 }
@@ -940,11 +968,23 @@
    margin-right: 2rem;
  }
 
+ .footer
+ {
+    margin: 0;
+    margin-left: 2rem;
+ }
+
 
  .footer-info a
  {
    margin-bottom: 1rem;
    margin-right: 3rem;
+ }
+
+ .button2
+ {
+  margin: 0;
+  margin-left: 2rem;
  }
 
 }
@@ -1014,6 +1054,12 @@
  .footer-info
  {
    margin-right: 2rem;
+ }
+
+ .footer
+ {
+    margin: 0;
+    margin-left: 2rem;
  }
 
 

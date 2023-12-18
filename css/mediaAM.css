@@ -65,28 +65,31 @@
         width: 1150px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 1150px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
-        display: inline;
-    }
-    
-    .footer-info{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
   }
   
   
@@ -116,27 +119,31 @@
         width: 1150px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 1150px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-    
-    .footer-info{
-        margin-right: 2rem;
-    }
-    
     .logoFooter{
-        display: inline;
-    }
-    
-    .footer-info a{
-        margin-bottom: 1rem;
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
+      }
+     
+     
+      .footer-info a
+      {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
   }
   
   /*1120 px*/
@@ -165,28 +172,31 @@
         width: 1100px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 1100px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
-        display: inline;
-    }
-    
-    .footer-info{
+        display: none;
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
-        margin-right: 2rem;
-    }
+        margin-right: 3rem;
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
   }
   
   
@@ -215,29 +225,31 @@
         width: 900px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 900px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
-  
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
   }
   
   /*912 px or surface pro*/
@@ -266,28 +278,31 @@
         width: 800px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 800px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
   }
   
   /*820 px or ipad air*/
@@ -316,28 +331,32 @@
         width: 700px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 700px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  
   }
   
    /*768 px or ipad mini*/
@@ -367,28 +386,32 @@
         width: 700px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 700px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  
   }
   
   /*690 px*/
@@ -415,28 +438,32 @@
         width: 300px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 300px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+  
   }
   
   
@@ -464,28 +491,31 @@
         width: 400px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 400px;
-    }
-
-    .unorderlist li{
-        margin-left: 3em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+        font-size: 1rem;
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+     
+      .footer{
+        font-size: small;
+        display: table;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
   }
   
   /*462px*/
@@ -512,28 +542,26 @@
         width: 300px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 300px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+   
+      .button1{
+       margin-right: 2em;
+      }
+     
   }
   
   /*415px and below*/
@@ -560,28 +588,27 @@
         width: 300px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 300px;
-    }
-
-    .unorderlist li{
-        margin-left: 2em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+   
+      .button1{
+       margin-right: 2em;
+      }
+     
+  
   }
   
   /*376 px*/
@@ -608,28 +635,26 @@
         width: 300px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 300px;
-    }
-
-    .unorderlist li{
-        margin-left: 1.5em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
+      }
+   
+      .button1{
+       margin-right: 2em;
+      }
+     
   
   }
   
@@ -657,27 +682,35 @@
         width: 200px;
     }
 
-    .unorderlist{
-        margin-left: 0em;
-        width: 200px;
-    }
-
-    .unorderlist li{
-        margin-left: 1.5em;
-    }
-
     .logoFooter{
         display: none;
-    }
-    
-    .footer-info{
+      }
+     
+      .footer-info
+      {
         margin-right: 2rem;
-    }
-    
-    
-    .footer-info a{
+      }
+     
+     
+      .footer-info a
+      {
         margin-bottom: 1rem;
         margin-right: 3rem;
-    }
-  
+      }
+     
+      .intro-text{
+        font-size: 1em;
+      }
+     
+      .intro {
+          height: 300px;
+      }
+     
+      .button1{
+        margin-right: 2em;
+      }
+
+      .unorderlist{
+        margin: 0;
+      }
   }
