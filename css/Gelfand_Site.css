@@ -161,6 +161,7 @@
     margin: 6em;
     width: 600px;
     font-size: 1.5em;
+    margin-left: 12em;
   }
   
   .block1-content h2 {
@@ -297,6 +298,7 @@
     margin: 6em;
     width: 600px;
     font-size: 1.5em;
+    margin-left: 12em;
   }
   
   .block3-content h2 {
@@ -316,10 +318,11 @@
   {
     float: right;
     margin: 30px 60px;
-    width: 500px;
-    height: 350px;
-    margin-right: 8.5em;
+    width: 300px;
+    height: 400px;
+    margin-left: 19em;
     margin-top: 4em;
+    border-radius: 50%;
   }
 
   .imageleft
@@ -331,6 +334,7 @@
     height: 350px;
     margin-top: 6em;
     margin-left: 8.5em;
+    border-radius: 50%;
   }
 
   .button1 {
@@ -413,7 +417,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin-left: 22rem;
     position: sticky;
     bottom: 0;
   }
