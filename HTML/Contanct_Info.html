@@ -137,15 +137,15 @@
             */
 
             //spreadsheet
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzf_n0nliGEqY-lCo8go9xjHE77YgF3TLz9ATOOLIneQqWZC9fwCMXNi9wKceTBOllV/exec'
-            const form = document.forms['#custom-form']
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzksfhnkAgn0XvDNgfLki3Vqmte-6jnjsaI_adkvrrjHrSSjV_UVrDid-tOkN_JkJqf/exec';
+            const form = document.forms['custom-form'];
 
             form.addEventListener('submit', e => {
-                e.preventDefault()
+                e.preventDefault();
                 fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
-            })
+                .catch(error => console.error('Error!', error.message));
+            });
         </script>
     </body>
 </html>
