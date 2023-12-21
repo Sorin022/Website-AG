@@ -370,8 +370,8 @@
   }
 
   .footer{
-    margin: 0;
-    margin-left: 8rem;
+    font-size: small;
+    display: table;
   }
 
 }
