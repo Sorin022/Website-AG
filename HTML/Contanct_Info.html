@@ -51,10 +51,8 @@
             <p><a href="mailto:office@audreygelfand.com" style="text-decoration: none; color: white; font-size:larger;" class="email">Audrey Gelfand</a></p>
         </div>
         
-
-
         <div class="contact-form-container">
-            <form class="contact-form" action="PHP/server-script.php" method="post"> <!-- point to PHP script -->
+            <form class="contact-form" id="custom-form" method="post">
                 <input type="text" id="name" placeholder="First Name" name="name" required>
 
                 <input type="text" id="last-name" placeholder="Last Name" name="last-name" required>
@@ -66,9 +64,6 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
-        <script src="js/formSubmission.js"></script> 
-        <!-- point to js script -->
-
 
         <div class="content">
         <br>
@@ -124,8 +119,17 @@
             });
 
 
-            //email message sending for the form
-            
+            //form output
+            const form = document.querySelector("#custom-form");
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+                //get form data
+                const data = new FormData(e.target);
+                const entries = Object.fromEntries(data.entries());
+                console.log(entries);
+                //clear form values
+                e.target.reset();
+            });
         </script>
     </body>
 </html>
