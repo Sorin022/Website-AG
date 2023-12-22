@@ -40,19 +40,20 @@
 }
 
 /*1426 px*/
-@media screen and (max-width:1427px){
+@media screen and (max-width:1500px){
   .imageright
   {
     margin-top: 9em;
-    margin-right: 8em;
-    width: 400px;
-    height: 225px;
+    margin-right: 8rem;
+    margin-left: 20rem;
+    width: 300px;
+    height: 400px;
   }
  
   .imageleft
   {
-    margin-top: 9em;
-    margin-left: 11em;
+    margin-top: 0;
+    margin-left: 20em;
     width: 350px;
     height: 225px;
   }
@@ -63,6 +64,7 @@
    margin-top: 5em;
    margin-left: 2em;
    display: inline-block;
+   margin-left: 7em;
  }
  
  
@@ -82,11 +84,11 @@
  .block3-content
    {
      margin: 0%;
-     margin-top: 7em;
      width: 500px;
      height: 300px;
      font-size: 1.5em;
      display: inline-block;
+     margin-left: 5em;
    }
  
    .block3-content p
@@ -95,6 +97,10 @@
      word-spacing: 2px;
      width: 500px;
      margin-left: 2em;
+   }
+
+   .block3-content h2{
+    margin-left: 1em;
    }
  
   .footer-info
@@ -110,6 +116,15 @@
     margin-right: 3rem;
   }
 
+  .button2{
+    margin-left: 1.5em;
+  }
+
+  .footer{
+    margin:0;
+    margin-left: 11rem;
+    width: 1500px;
+  }
 
 }
 

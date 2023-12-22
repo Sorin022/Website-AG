@@ -40,37 +40,21 @@
 }
 
 /*1426 px*/
-@media screen and (max-width:1427px){
-  .logoFooter{
-      display: none;
-      font-size: 1rem;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
-   
-    .footer{
-      font-size: small;
-      display: table;
-    }
-   
-    .button1{
-      margin-right: 2em;
-    }
+@media screen and (max-width:1500px){
+  
+  .footer{
+    margin:0;
+    margin-left: 11rem;
+    width: 1500px;
+  }
+  
 }
 
 
 /*1280 px*/
 @media screen and (max-width:1285px){
+ 
+
   .logoFooter{
       display: none;
       font-size: 1rem;
@@ -89,8 +73,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -100,6 +84,8 @@
 
 /*1120 px*/
 @media screen and (max-width:1190px){
+  
+  
   .logoFooter{
       display: none;
       font-size: 1rem;
@@ -118,8 +104,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -130,6 +116,8 @@
 
 /*1024 px*/
 @media screen and (max-width:1025px){
+  
+
   .logoFooter{
       display: none;
       font-size: 1rem;
@@ -148,8 +136,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -159,6 +147,8 @@
 
 /*912 px or surface pro*/
 @media screen and (max-width:913px){
+  
+
   .logoFooter{
       display: none;
       font-size: 1rem;
@@ -177,8 +167,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -188,6 +178,8 @@
 
 /*820 px or ipad air*/
 @media screen and (max-width:821px){
+  
+
   .logoFooter{
       display: none;
       font-size: 1rem;
@@ -206,8 +198,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -218,6 +210,7 @@
 
  /*768 px or ipad mini*/
  @media screen and (max-width:769px){
+  
   .logoFooter{
       display: none;
       font-size: 1rem;
@@ -236,8 +229,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -248,6 +241,8 @@
 
 /*690 px*/
 @media screen and (max-width:690px){
+  
+
   .logoFooter{
       display: none;
       font-size: 1rem;
@@ -266,8 +261,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -297,8 +292,8 @@
     }
    
     .footer{
-      font-size: small;
-      display: table;
+      margin-left: 0;
+      margin-left: 2rem;
     }
    
     .button1{
@@ -308,6 +303,11 @@
 
 /*462px*/
 @media screen and (max-width:463px){
+  .footer{
+    margin-left: 0;
+    margin-left: 2rem;
+  }
+
   .logoFooter{
       display: none;
     }
@@ -332,6 +332,11 @@
 
 /*415px and below*/
 @media screen and (max-width:415px){
+  .footer{
+    margin-left: 0;
+    margin-left: 2rem;
+  }
+  
   .logoFooter{
       display: none;
     }
@@ -357,6 +362,11 @@
 
 /*376 px*/
 @media screen and (max-width:376px){
+  .footer{
+    margin-left: 0;
+    margin-left: 2rem;
+  }
+
   .logoFooter{
       display: none;
     }
@@ -382,6 +392,11 @@
 
 /*280 px or galaxy fold*/
 @media screen and (max-width:281px){
+  .footer{
+    margin-left: 0;
+    margin-left: 2rem;
+  }
+
   .logoFooter{
       display: none;
     }

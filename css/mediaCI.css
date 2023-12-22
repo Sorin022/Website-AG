@@ -40,32 +40,12 @@
 }
 
 /*1426 px*/
-@media screen and (max-width:1427px){
-  .logoFooter{
-      display: none;
-      font-size: 1rem;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
-   
-    .footer{
-      font-size: small;
-      display: table;
-    }
-   
-    .button1{
-      margin-right: 2em;
-    }
+@media screen and (max-width:1500px){
+  .footer{
+    margin:0;
+    margin-left: 11rem;
+    width: 1500px;
+  }
 }
 
 
@@ -249,7 +229,7 @@
  
   .footer-info
   {
-    margin-right: 20rem;
+    margin-right: 4rem;
   }
  
  

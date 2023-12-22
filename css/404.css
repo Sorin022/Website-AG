@@ -204,7 +204,6 @@
   /*footer basics*/
   .footer
   {
-    width: 80%;
     height: 25vh;
     background-color: #ccbed4;
     color: black;
@@ -214,6 +213,7 @@
     margin: 0 auto;
     position: sticky;
     bottom: 0;
+    margin-left: 22rem;
   }
 
   /*footer organization*/
