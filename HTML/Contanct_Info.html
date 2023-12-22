@@ -37,7 +37,7 @@
                 <div class="contactcontainer">
                     <h1 class="the_title">Contact us</h1>
                     <p class="the_title_text">
-                        Use this form to reach out to us
+                        Use this Information to reach out to us
                     </p>
                 </div>
             </div>
@@ -50,9 +50,10 @@
             <br>
             <p><a href="mailto:office@audreygelfand.com" style="text-decoration: none; color: white; font-size:larger;" class="email">Audrey Gelfand</a></p>
         </div>
-        
+
+        <!--
         <div class="contact-form-container">
-            <form class="contact-form" id="custom-form" method="post">
+            <form class="contact-form" name="contactUs-form"  id= "custom-form" method="post">
                 <input type="text" id="name" placeholder="First Name" name="name" required>
 
                 <input type="text" id="last-name" placeholder="Last Name" name="last-name" required>
@@ -64,6 +65,7 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
+        -->
 
         <div class="content">
         <br>
@@ -134,11 +136,10 @@
                 //clear form values
                 e.target.reset();
             });
-            */
 
             //spreadsheet
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzksfhnkAgn0XvDNgfLki3Vqmte-6jnjsaI_adkvrrjHrSSjV_UVrDid-tOkN_JkJqf/exec';
-            const form = document.forms['custom-form'];
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzca7i6L_WlILlv3uRloviU0i1s9aez_ocXkteQlckq6OLdM6hIi9oNcwakmg5osmMs/exec';
+            const form = document.forms['contactUs-form'];
 
             form.addEventListener('submit', e => {
                 e.preventDefault();
@@ -146,6 +147,7 @@
                 .then(response => console.log('Success!', response))
                 .catch(error => console.error('Error!', error.message));
             });
+            */
         </script>
     </body>
 </html>

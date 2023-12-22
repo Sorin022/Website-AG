@@ -133,17 +133,12 @@
         width: 25%;
         height: 200px;
         background-color: #ccbed4;
-        float: right;
-        display: table-column;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 7em;
+        margin: 7em auto; /* Center horizontally */
         margin-bottom: 7em;
         padding: 20px;
         border-radius: 5px;
-        margin-right: 15em;
     }
+    
     
     .contact-us-box p {
         font-size: medium;
@@ -153,7 +148,7 @@
         margin: 10px 0; 
     }
     
-    
+    /*
     .contact-form-container {
         margin-top: 40px;
         width: 50%;
@@ -218,6 +213,7 @@
     .email{
         font-size: medium;
     }
+    */
     
 
 
