@@ -55,7 +55,7 @@
     margin: 0;
     width: 300px;
     height: 250px;
-    margin-right: 4rem;
+    margin-left: 30.5rem;
     margin-top: 2rem;
   }
 
@@ -68,6 +68,7 @@
 
   .logoFooter{
     display: none;
+    font-size: 1rem;
   }
  
   .footer-info
@@ -81,10 +82,15 @@
     margin-bottom: 1rem;
     margin-right: 3rem;
   }
-
+ 
   .footer{
-    margin: 0;
-    margin-left: 4rem;
+    font-size: small;
+    display: table;
+    width: 300px;
+  }
+ 
+  .button1{
+    margin-right: 2em;
   }
 }
 
@@ -94,7 +100,7 @@
     margin: 0;
     width: 300px;
     height: 250px;
-    margin-right: 4rem;
+    margin-left: 22.5rem;
     margin-top: 2rem;
   }
 
@@ -124,6 +130,7 @@
   .footer{
     margin: 0;
     margin-left: 4rem;
+    width: 300px;
   }
 }
 
@@ -134,7 +141,7 @@
     margin: 0;
     width: 300px;
     height: 250px;
-    margin-right: 4rem;
+    margin-left: 22.5rem;
     margin-top: 2rem;
   }
 
@@ -147,6 +154,7 @@
 
   .logoFooter{
     display: none;
+    font-size: 1rem;
   }
  
   .footer-info
@@ -160,10 +168,15 @@
     margin-bottom: 1rem;
     margin-right: 3rem;
   }
-
+ 
   .footer{
-    margin: 0;
-    margin-left: 4rem;
+    font-size: small;
+    display: table;
+    width: 300px;
+  }
+ 
+  .button1{
+    margin-right: 2em;
   }
 }
 
@@ -173,7 +186,7 @@
     margin: 0;
     width: 300px;
     height: 250px;
-    margin-right: 4rem;
+    margin-left: 19rem;
     margin-top: 2rem;
   }
 
@@ -186,6 +199,7 @@
 
   .logoFooter{
     display: none;
+    font-size: 1rem;
   }
  
   .footer-info
@@ -199,10 +213,15 @@
     margin-bottom: 1rem;
     margin-right: 3rem;
   }
-
+ 
   .footer{
-    margin: 0;
-    margin-left: 4rem;
+    font-size: small;
+    display: table;
+    width: 300px;
+  }
+ 
+  .button1{
+    margin-right: 2em;
   }
 }
 
@@ -212,7 +231,7 @@
     margin: 0;
     width: 300px;
     height: 250px;
-    margin-right: 4rem;
+    margin-left: 16rem;
     margin-top: 2rem;
   }
 
@@ -225,11 +244,12 @@
 
   .logoFooter{
     display: none;
+    font-size: 1rem;
   }
  
   .footer-info
   {
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
  
  
@@ -238,10 +258,15 @@
     margin-bottom: 1rem;
     margin-right: 3rem;
   }
-
+ 
   .footer{
-    margin: 0;
-    margin-left: 4rem;
+    font-size: small;
+    display: table;
+    width: 300px;
+  }
+ 
+  .button1{
+    margin-right: 2em;
   }
 
 }
@@ -252,7 +277,7 @@
     margin: 0;
     width: 300px;
     height: 250px;
-    margin-right: 4rem;
+    margin-left: 14.5rem;
     margin-top: 2rem;
   }
 
@@ -265,6 +290,7 @@
 
   .logoFooter{
     display: none;
+    font-size: 1rem;
   }
  
   .footer-info
@@ -278,10 +304,15 @@
     margin-bottom: 1rem;
     margin-right: 3rem;
   }
-
+ 
   .footer{
-    margin: 0;
-    margin-left: 4rem;
+    font-size: small;
+    display: table;
+    width: 300px;
+  }
+ 
+  .button1{
+    margin-right: 2em;
   }
 }
 
@@ -322,7 +353,7 @@
     margin: 0;
     width: 300px;
     height: 300px;
-    margin-right: 7.5rem;
+    margin-left: 7.5rem;
   }
 
   .contact-form-container{
@@ -359,7 +390,7 @@
     margin: 0;
     width: 300px;
     height: 300px;
-    margin-right: 4rem;
+    margin-left: 4.25rem;
   }
 
   .contact-form-container{
@@ -387,6 +418,7 @@
   .footer{
     margin: 0;
     margin-left: 4rem;
+    width: 300px;
   }
    
 }
@@ -397,7 +429,7 @@
     margin: 0;
     width: 300px;
     height: 300px;
-    margin-right: 3rem;
+    margin-left: 3.5rem;
   }
 
   .contact-form-container{
@@ -425,19 +457,19 @@
   .footer{
     margin: 0;
     margin-left: 4rem;
+    width: 300px;
   }
    
 
 }
-
 /*376 px*/
-@media screen and (max-width:376px){
+@media screen and (max-width:391px){
 
   .contact-us-box{
     margin: 0;
     width: 300px;
     height: 300px;
-    margin-right: 2rem;
+    margin-left: 3rem;
   }
 
   .contact-form-container{
@@ -465,6 +497,91 @@
   .footer{
     margin: 0;
     margin-left: 4rem;
+    width: 300px;
+  }
+   
+
+}
+
+/*376 px*/
+@media screen and (max-width:375px){
+
+  .contact-us-box{
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    margin-left: 2.5rem;
+  }
+
+  .contact-form-container{
+    margin: 0;
+    margin-top: 20rem;
+    margin-left: 6rem;
+  }
+
+  .logoFooter{
+    display: none;
+  }
+ 
+  .footer-info
+  {
+    margin-right: 2rem;
+  }
+ 
+ 
+  .footer-info a
+  {
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+
+  .footer{
+    margin: 0;
+    margin-left: 4rem;
+    width: 300px;
+  }
+   
+
+}
+
+
+
+/*376 px*/
+@media screen and (max-width:361px){
+
+  .contact-us-box{
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    margin-left: 2rem;
+  }
+
+  .contact-form-container{
+    margin: 0;
+    margin-top: 20rem;
+    margin-left: 6rem;
+  }
+
+  .logoFooter{
+    display: none;
+  }
+ 
+  .footer-info
+  {
+    margin-right: 2rem;
+  }
+ 
+ 
+  .footer-info a
+  {
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+
+  .footer{
+    margin: 0;
+    margin-left: 4rem;
+    width: 250px;
   }
    
 
@@ -476,7 +593,7 @@
     margin: 0;
     width: 200px;
     height: 300px;
-    margin-right: 2rem;
+    margin-left: 2.5rem;
   }
 
   .contact-form-container{
@@ -509,6 +626,7 @@
   .footer{
     margin: 0;
     margin-left: 4rem;
+    width: 200px;
   }
 
 }

@@ -101,31 +101,32 @@
     width: 1150px;
 }
 
-  .logoFooter{
-      display: none;
-      font-size: 1rem;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
-   
-    .footer{
-      margin-left: 0;
-      margin-left: 2rem;
-    }
-   
-    .button1{
-      margin-right: 2em;
-    }
+.logoFooter{
+  display: none;
+  font-size: 1rem;
+}
+
+.footer-info
+{
+  margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.footer{
+  font-size: small;
+  display: table;
+  width: 300px;
+}
+
+.button1{
+  margin-right: 2em;
+}
 }
 
 /*1120 px*/
@@ -207,31 +208,36 @@
     width: 900px;
 }
 
-  .logoFooter{
-      display: none;
-      font-size: 1rem;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
-   
-    .footer{
-      margin-left: 0;
-      margin-left: 2rem;
-    }
-   
-    .button1{
-      margin-right: 2em;
-    }
+.logoFooter{
+  display: none;
+  font-size: 1rem;
+}
+
+.footer-info
+{
+  margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.footer{
+  font-size: small;
+  display: table;
+}
+
+.button1{
+  margin-right: 2em;
+}
+
+.unorderlist{
+  width: 200px;
+}
+
 }
 
 /*912 px or surface pro*/
@@ -286,6 +292,10 @@
       margin-right: 2em;
     }
 
+    .unorderlist{
+      width: 200px;
+    }
+
 
 
 }
@@ -316,31 +326,36 @@
     width: 700px;
 }
 
-  .logoFooter{
-      display: none;
-      font-size: 1rem;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
-   
-    .footer{
-      margin-left: 0;
-      margin-left: 2rem;
-    }
-   
-    .button1{
-      margin-right: 2em;
-    }
+.logoFooter{
+  display: none;
+  font-size: 1rem;
+}
+
+.footer-info
+{
+  margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.footer{
+  font-size: small;
+  display: table;
+}
+
+.button1{
+  margin-right: 2em;
+}
+
+.unorderlist{
+  width: 200px;
+}
+
 
 }
 
@@ -371,31 +386,35 @@
     width: 700px;
 }
 
-  .logoFooter{
-      display: none;
-      font-size: 1rem;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
-   
-    .footer{
-      margin-left: 0;
-      margin-left: 2rem;
-    }
-   
-    .button1{
-      margin-right: 2em;
-    }
+.logoFooter{
+  display: none;
+  font-size: 1rem;
+}
+
+.footer-info
+{
+  margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.footer{
+  font-size: small;
+  display: table;
+}
+
+.button1{
+  margin-right: 2em;
+}
+
+.unorderlist{
+  width: 200px;
+}
 
 
 }
@@ -528,30 +547,35 @@
     width: 300px;
 }
 
-  .logoFooter{
-      display: none;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
- 
-    .button1{
-     margin-right: 2em;
-    }
+.logoFooter{
+  display: none;
+  font-size: 1rem;
+}
 
-    .footer{
-      margin-left: 0;
-      margin-left: 2rem;
-    }
+.footer-info
+{
+  margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.footer{
+  font-size: small;
+  display: table;
+}
+
+.button1{
+  margin-right: 2em;
+}
+.unorderlist{
+  width: 200px;
+}
+
    
 }
 
@@ -580,30 +604,35 @@
 }
 
 
-  .logoFooter{
-      display: none;
-    }
-   
-    .footer-info
-    {
-      margin-right: 2rem;
-    }
-   
-   
-    .footer-info a
-    {
-      margin-bottom: 1rem;
-      margin-right: 3rem;
-    }
- 
-    .button1{
-     margin-right: 2em;
-    }
+.logoFooter{
+  display: none;
+  font-size: 1rem;
+}
 
-    .footer{
-      margin-left: 0;
-      margin-left: 2rem;
-    }
+.footer-info
+{
+  margin-right: 2rem;
+}
+
+
+.footer-info a
+{
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+.footer{
+  font-size: small;
+  display: table;
+}
+
+.button1{
+  margin-right: 2em;
+}
+
+.unorderlist{
+  width: 200px;
+}
    
 
 }
@@ -653,8 +682,12 @@
     }
 
     .footer{
-      margin-left: 0;
+      margin: 0;
       margin-left: 2rem;
+    }
+
+    .unorderlist{
+      width: 200px;
     }
    
 
@@ -698,6 +731,7 @@
    
     .footer-info
     {
+      width: 200px;
       margin-right: 2rem;
     }
    
@@ -719,4 +753,9 @@
     .button1{
       margin-right: 2em;
     }
+
+    .footer{
+      width: 200px;
+    }
+
 }
