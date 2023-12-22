@@ -320,7 +320,7 @@
     margin: 30px 60px;
     width: 300px;
     height: 400px;
-    margin-left: 25em;
+    margin-left: 5em;
     margin-top: 4em;
     border-radius: 50%;
   }
@@ -333,7 +333,7 @@
     width: 500px;
     height: 400px;
     margin-top: 6em;
-    margin-left: 12em;
+    margin-left: 3em;
     border-radius: 50%;
   }
 
@@ -410,7 +410,7 @@
   /*footer basics*/
   .footer
   {
-    width: 70%;
+    width: 80%;
     height: 25vh;
     background-color: #ccbed4;
     color: black;
@@ -420,7 +420,7 @@
     margin-left: 8rem;
     position: sticky;
     bottom: 0;
-    margin-left: 22rem;
+    margin-left: 14rem;
   }
 
   /*footer organization*/
