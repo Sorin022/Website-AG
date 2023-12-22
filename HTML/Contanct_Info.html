@@ -37,7 +37,7 @@
                 <div class="contactcontainer">
                     <h1 class="the_title">Contact us</h1>
                     <p class="the_title_text">
-                        Use this Information to reach out to us
+                        Use the form below to reach out to us
                     </p>
                 </div>
             </div>
@@ -115,22 +115,7 @@
                 }
             });
 
-
-            /*
-            //form output
-            const form = document.querySelector("#custom-form");
-            form.addEventListener("submit", (e) => {
-                e.preventDefault();
-                //get form data
-                const data = new FormData(e.target);
-                const entries = Object.fromEntries(data.entries());
-                console.log(entries);
-                //clear form values
-                e.target.reset();
-            });
-            */
-
-            //spreadsheet
+            //spreadsheet form input using this - https://github.com/jamiewilson/form-to-google-sheets
             const scriptURL = 'https://script.google.com/macros/s/AKfycbw28T_nxrcwOKRHkNW26FRQUzeLr5sAM0ZMVAy0q9kpS8R143ZY0OofyVq2SEV5YSJrQw/exec';
             const form = document.forms['contactUs-form'];
 
