@@ -76,6 +76,12 @@
       .button1{
         margin-right: 2em;
       }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
+      }
   }
   
   /*1120 px*/
@@ -104,6 +110,12 @@
      
       .button1{
         margin-right: 2em;
+      }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
       }
   }
   
@@ -135,6 +147,12 @@
       .button1{
         margin-right: 2em;
       }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
+      }
   }
   
   /*912 px or surface pro*/
@@ -164,6 +182,12 @@
       .button1{
         margin-right: 2em;
       }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
+      }
   }
   
   /*820 px or ipad air*/
@@ -192,6 +216,12 @@
      
       .button1{
         margin-right: 2em;
+      }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
       }
   
   }
@@ -223,6 +253,12 @@
       .button1{
         margin-right: 2em;
       }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
+      }
   
   }
   
@@ -252,6 +288,12 @@
      
       .button1{
         margin-right: 2em;
+      }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
       }
   
   }
@@ -284,6 +326,12 @@
       .button1{
         margin-right: 2em;
       }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
+      }
   }
   
   /*462px*/
@@ -306,6 +354,12 @@
    
       .button1{
        margin-right: 2em;
+      }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
       }
      
   }
@@ -331,6 +385,12 @@
       .button1{
        margin-right: 2em;
       }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 300px;
+      }
      
   
   }
@@ -355,6 +415,12 @@
    
       .button1{
        margin-right: 2em;
+      }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 250px;
       }
      
   
@@ -388,5 +454,11 @@
      
       .button1{
         margin-right: 2em;
+      }
+
+      .footer{
+        margin: 0;
+        margin-left: 4rem;
+        width: 200px;
       }
   }
