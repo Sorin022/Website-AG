@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="../css/contact.css">
         <link rel="stylesheet" href="../css/mediaCI.css">
         <title>Contact Us</title>
+
+        
     </head>
     <body>
 
@@ -51,7 +53,6 @@
             <p><a href="mailto:office@audreygelfand.com" style="text-decoration: none; color: white; font-size:larger;" class="email">Audrey Gelfand</a></p>
         </div>
 
-        <!--
         <div class="contact-form-container">
             <form class="contact-form" name="contactUs-form"  id= "custom-form" method="post">
                 <input type="text" id="name" placeholder="First Name" name="name" required>
@@ -60,12 +61,9 @@
 
                 <input type="email" id="email" placeholder="Email" name="email" required>
 
-                <textarea id="message" placeholder="Message" name="message" rows="4" required></textarea>
-
                 <button type="submit">Submit</button>
             </form>
         </div>
-        -->
 
         <div class="content">
         <br>
@@ -92,10 +90,6 @@
                 </div>
             </div>
         </div>
-
-        <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-        <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-        <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
 
         <script>
             /*Open the overlay*/
@@ -136,9 +130,10 @@
                 //clear form values
                 e.target.reset();
             });
+            */
 
             //spreadsheet
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzca7i6L_WlILlv3uRloviU0i1s9aez_ocXkteQlckq6OLdM6hIi9oNcwakmg5osmMs/exec';
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw28T_nxrcwOKRHkNW26FRQUzeLr5sAM0ZMVAy0q9kpS8R143ZY0OofyVq2SEV5YSJrQw/exec';
             const form = document.forms['contactUs-form'];
 
             form.addEventListener('submit', e => {
@@ -147,7 +142,6 @@
                 .then(response => console.log('Success!', response))
                 .catch(error => console.error('Error!', error.message));
             });
-            */
         </script>
     </body>
 </html>
