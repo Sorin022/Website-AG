@@ -42,6 +42,13 @@
 /*1426 px*/
 @media screen and (max-width:1500px){
   .footer{
+    margin-left: 22rem;
+  }
+}
+
+/*1426 px*/
+@media screen and (max-width:1500px){
+  .footer{
     margin:0;
     margin-left: 11rem;
     width: 1500px;

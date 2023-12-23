@@ -38,6 +38,13 @@
      padding-bottom: 1rem;
    }
   }
+
+  /*1426 px*/
+  @media screen and (max-width:2001){
+    .footer{
+      width: 60%;
+    }
+  }
   
   /*1426 px*/
   @media screen and (max-width:1500px){
