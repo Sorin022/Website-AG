@@ -40,7 +40,7 @@
 }
 
 /*1426 px*/
-@media screen and (max-width:4000px){
+@media screen and (max-width:1921px){
   .imageright
   {
     margin-top: 9em;
@@ -64,7 +64,7 @@
    margin-top: 5em;
    margin-left: 2em;
    display: inline-block;
-   margin-left: 30em;
+   margin-left: 8em;
  }
  
  
@@ -88,7 +88,7 @@
      height: 300px;
      font-size: 1.5em;
      display: inline-block;
-     margin-left: 42rem;
+     margin-left: 9rem;
    }
  
    .block3-content p
@@ -109,7 +109,7 @@
 
   .footer{
     margin:0;
-    margin-left: 42rem;
+    margin-left: 11rem;
   }
 }
 

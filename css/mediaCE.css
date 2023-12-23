@@ -46,14 +46,6 @@
     }
   }
 
-  /*1280 px*/
-@media screen and (max-width:4000px){
-  .footer{
-    height: 600px;
-    margin-left: 42rem;
-  }
-}
-
   
   /*1426 px*/
   @media screen and (max-width:1500px){
