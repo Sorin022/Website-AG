@@ -215,6 +215,7 @@
   /*footer basics*/
   .footer
   {
+      width: 70%;
       height: 25vh;
       background-color: #ccbed4;
       color: black;
