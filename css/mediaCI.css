@@ -512,7 +512,7 @@
 }
 
 /*376 px*/
-@media screen and (max-width:375px){
+@media screen and (max-width:376px){
 
   .contact-us-box{
     margin: 0;
@@ -524,7 +524,7 @@
   .contact-form-container{
     margin: 0;
     margin-top: 20rem;
-    margin-left: 6rem;
+    margin-left: 5.5rem;
   }
 
   .logoFooter{
