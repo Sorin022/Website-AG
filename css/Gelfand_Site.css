@@ -161,7 +161,7 @@
     margin: 6em;
     width: 600px;
     font-size: 1.5em;
-    margin-left: 10em;
+    margin-left: 2em;
   }
   
   .block1-content h2 {
@@ -298,7 +298,7 @@
     margin: 6em;
     width: 600px;
     font-size: 1.5em;
-    margin-left: 10em;
+    margin-left: 2em;
   }
   
   .block3-content h2 {
@@ -320,7 +320,7 @@
     margin: 30px 60px;
     width: 300px;
     height: 400px;
-    margin-left: 25em;
+    margin-left: 5em;
     margin-top: 4em;
     border-radius: 50%;
   }
@@ -333,7 +333,7 @@
     width: 500px;
     height: 400px;
     margin-top: 6em;
-    margin-left: 12em;
+    margin-left: 3em;
     border-radius: 50%;
   }
 
@@ -410,17 +410,15 @@
   /*footer basics*/
   .footer
   {
-    width: 70%;
     height: 25vh;
     background-color: #ccbed4;
     color: black;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-left: 8rem;
+    margin-left: 2rem;
     position: sticky;
     bottom: 0;
-    margin-left: 22rem;
   }
 
   /*footer organization*/

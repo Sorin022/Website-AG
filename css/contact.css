@@ -237,7 +237,7 @@
   /*footer basics*/
   .footer
   {
-    width: 60%;
+    width: 80%;
     height: 25vh;
     background-color: #ccbed4;
     color: black;
@@ -246,7 +246,7 @@
     flex-wrap: wrap;
     position: sticky;
     bottom: 0;
-    margin-left: 22rem;
+    margin-left: 11rem;
   }
 
   /*footer organization*/
