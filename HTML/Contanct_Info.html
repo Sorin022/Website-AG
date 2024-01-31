@@ -121,15 +121,23 @@
                 }
             });
 
-            //spreadsheet form input using this - https://github.com/jamiewilson/form-to-google-sheets
             const scriptURL = 'https://script.google.com/macros/s/AKfycbybFUx6LG919Rtyu3NgIIkQUfenig7g5d6vrsiMdek8apAtLvaSmmHSLA7hODJnhcOg/exec';
             const form = document.forms['contactUs-form'];
 
             form.addEventListener('submit', e => {
                 e.preventDefault();
-                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message));
+
+                // Your form submission logic here using fetch
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        console.log('Success!', response);
+
+                        // Add a delay before reloading the page (e.g., 2000 milliseconds = 2 seconds)
+                        setTimeout(() => {
+                            location.reload();
+                        }, 1000);
+                    })
+                    .catch(error => console.error('Error!', error.message));
             });
         </script>
     </body>
