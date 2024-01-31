@@ -113,6 +113,10 @@
     color: white;
   }
 
+  .container-blocks {
+    margin-top: 3em;
+  }
+
   #block1 {
     display: flex;
     align-items: center;
